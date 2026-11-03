@@ -1,0 +1,86 @@
+:root {
+  --bg: #07060d;
+  --bg-2: #0e0b1a;
+  --panel: rgba(20, 14, 38, 0.72);
+  --panel-2: rgba(30, 20, 56, 0.6);
+  --line: rgba(190, 150, 255, 0.16);
+  --text: #ece6fb;
+  --muted: #9d93bf;
+  --purple: #9b5cff;
+  --purple-2: #6f3bd6;
+  --teal: #2fe0d0;
+  --teal-2: #17a89c;
+  --pink: #ff5fb8;
+  --pink-2: #d63c8f;
+  --danger: #ff5f7e;
+  --ok: #4ee2a0;
+  --radius: 14px;
+  --shadow: 0 10px 40px rgba(0, 0, 0, 0.45);
+  --font: "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; min-height: 100%; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+button, .btn, .chip, label { touch-action: manipulation; }
+/* iOS Safari zooms the page when a focused field is under 16px */
+@media (pointer: coarse) { input, select, textarea { font-size: max(16px, 1em); } }
+body {
+  font-family: var(--font);
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.45;
+  overflow-x: hidden;
+}
+h1, h2, h3, h4 { margin: 0 0 .5rem; font-weight: 600; letter-spacing: .01em; }
+h2 { font-size: 1.25rem; }
+h3 { color: var(--muted); text-transform: uppercase; letter-spacing: .08em; font-size: .78rem; }
+p { margin: .3rem 0 .8rem; }
+a { color: var(--teal); }
+button, input, select, textarea { font: inherit; color: inherit; }
+textarea { resize: vertical; }
+::selection { background: rgba(155, 92, 255, .45); }
+.muted { color: var(--muted); }
+.small { font-size: .85rem; }
+.hidden { display: none !important; }
+.right { text-align: right; }
+.row { display: flex; gap: .6rem; flex-wrap: wrap; align-items: center; }
+.between { justify-content: space-between; }
+.grow { flex: 1 1 auto; }
+.mt { margin-top: 1rem; }
+.mb { margin-bottom: 1rem; }
+.stars {
+  position: fixed; inset: 0; z-index: -2; pointer-events: none;
+  background:
+    radial-gradient(1px 1px at 12% 18%, #fff 60%, transparent 61%),
+    radial-gradient(1px 1px at 33% 72%, #fff 60%, transparent 61%),
+    radial-gradient(1.5px 1.5px at 58% 26%, #d9c9ff 60%, transparent 61%),
+    radial-gradient(1px 1px at 81% 64%, #fff 60%, transparent 61%),
+    radial-gradient(1px 1px at 91% 12%, #fff 60%, transparent 61%),
+    radial-gradient(1.5px 1.5px at 25% 44%, #9ff5ee 60%, transparent 61%),
+    radial-gradient(1px 1px at 70% 88%, #ffc2e6 60%, transparent 61%),
+    radial-gradient(1px 1px at 44% 8%, #fff 60%, transparent 61%),
+    radial-gradient(1px 1px at 5% 90%, #fff 60%, transparent 61%),
+    radial-gradient(1.2px 1.2px at 63% 52%, #fff 60%, transparent 61%),
+    radial-gradient(1px 1px at 97% 40%, #d9c9ff 60%, transparent 61%),
+    radial-gradient(1px 1px at 17% 61%, #fff 60%, transparent 61%),
+    radial-gradient(1px 1px at 77% 33%, #fff 60%, transparent 61%),
+    radial-gradient(1px 1px at 50% 95%, #9ff5ee 60%, transparent 61%),
+    radial-gradient(1px 1px at 38% 30%, #fff 60%, transparent 61%),
+    radial-gradient(1px 1px at 22% 8%, #fff 60%, transparent 61%),
+    radial-gradient(1px 1px at 88% 78%, #fff 60%, transparent 61%),
+    radial-gradient(1px 1px at 8% 40%, #ffc2e6 60%, transparent 61%),
+    var(--bg);
+  opacity: .9;
+}
+.nebula {
+  position: fixed; inset: -20%; z-index: -1; pointer-events: none;
+  background:
+    radial-gradient(40% 35% at 15% 20%, rgba(155, 92, 255, .28), transparent 70%),
+    radial-gradient(35% 30% at 85% 15%, rgba(47, 224, 208, .16), transparent 70%),
+    radial-gradient(45% 40% at 75% 85%, rgba(255, 95, 184, .18), transparent 70%),
+    radial-gradient(30% 30% at 30% 90%, rgba(111, 59, 214, .2), transparent 70%);
+  filter: blur(30px);
+  animation: drift 60s ease-in-out infinite alternate;
+}
+@keyframes drift { from { transform: translate(0, 0) } to { transform: translate(-3%, 2%) } }
+@media (prefers-reduced-motion: reduce) { .nebula { animation: none; } }

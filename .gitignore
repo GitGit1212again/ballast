@@ -1,0 +1,27 @@
+# Ballast .gitignore
+
+# Your data. Never publish: diary, drawer, crisis plan, contacts.
+/data/
+ballast-backup-*.json
+ballast-summary-*.txt
+*.tmp
+
+# build.py re-creates this copy of src/assets; the built page does not need it
+/dist/assets/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Node
+node_modules/
+
+# OS and editor files
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+.claude/
+*.log

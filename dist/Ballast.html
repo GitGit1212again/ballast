@@ -1,0 +1,2109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#07060d">
+<meta name="color-scheme" content="dark">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Ballast">
+<title>Ballast</title>
+<link rel="icon" href="data:image/png;base64,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">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<style>
+/* ---- css/base.css ---- */
+:root {
+  --bg: #07060d;
+  --bg-2: #0e0b1a;
+  --panel: rgba(20, 14, 38, 0.72);
+  --panel-2: rgba(30, 20, 56, 0.6);
+  --line: rgba(190, 150, 255, 0.16);
+  --text: #ece6fb;
+  --muted: #9d93bf;
+  --purple: #9b5cff;
+  --purple-2: #6f3bd6;
+  --teal: #2fe0d0;
+  --teal-2: #17a89c;
+  --pink: #ff5fb8;
+  --pink-2: #d63c8f;
+  --danger: #ff5f7e;
+  --ok: #4ee2a0;
+  --radius: 14px;
+  --shadow: 0 10px 40px rgba(0, 0, 0, 0.45);
+  --font: "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; min-height: 100%; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+button, .btn, .chip, label { touch-action: manipulation; }
+/* iOS Safari zooms the page when a focused field is under 16px */
+@media (pointer: coarse) { input, select, textarea { font-size: max(16px, 1em); } }
+body {
+  font-family: var(--font);
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.45;
+  overflow-x: hidden;
+}
+h1, h2, h3, h4 { margin: 0 0 .5rem; font-weight: 600; letter-spacing: .01em; }
+h2 { font-size: 1.25rem; }
+h3 { color: var(--muted); text-transform: uppercase; letter-spacing: .08em; font-size: .78rem; }
+p { margin: .3rem 0 .8rem; }
+a { color: var(--teal); }
+button, input, select, textarea { font: inherit; color: inherit; }
+textarea { resize: vertical; }
+::selection { background: rgba(155, 92, 255, .45); }
+.muted { color: var(--muted); }
+.small { font-size: .85rem; }
+.hidden { display: none !important; }
+.right { text-align: right; }
+.row { display: flex; gap: .6rem; flex-wrap: wrap; align-items: center; }
+.between { justify-content: space-between; }
+.grow { flex: 1 1 auto; }
+.mt { margin-top: 1rem; }
+.mb { margin-bottom: 1rem; }
+.stars {
+  position: fixed; inset: 0; z-index: -2; pointer-events: none;
+  background:
+    radial-gradient(1px 1px at 12% 18%, #fff 60%, transparent 61%),
+    radial-gradient(1px 1px at 33% 72%, #fff 60%, transparent 61%),
+    radial-gradient(1.5px 1.5px at 58% 26%, #d9c9ff 60%, transparent 61%),
+    radial-gradient(1px 1px at 81% 64%, #fff 60%, transparent 61%),
+    radial-gradient(1px 1px at 91% 12%, #fff 60%, transparent 61%),
+    radial-gradient(1.5px 1.5px at 25% 44%, #9ff5ee 60%, transparent 61%),
+    radial-gradient(1px 1px at 70% 88%, #ffc2e6 60%, transparent 61%),
+    radial-gradient(1px 1px at 44% 8%, #fff 60%, transparent 61%),
+    radial-gradient(1px 1px at 5% 90%, #fff 60%, transparent 61%),
+    radial-gradient(1.2px 1.2px at 63% 52%, #fff 60%, transparent 61%),
+    radial-gradient(1px 1px at 97% 40%, #d9c9ff 60%, transparent 61%),
+    radial-gradient(1px 1px at 17% 61%, #fff 60%, transparent 61%),
+    radial-gradient(1px 1px at 77% 33%, #fff 60%, transparent 61%),
+    radial-gradient(1px 1px at 50% 95%, #9ff5ee 60%, transparent 61%),
+    radial-gradient(1px 1px at 38% 30%, #fff 60%, transparent 61%),
+    radial-gradient(1px 1px at 22% 8%, #fff 60%, transparent 61%),
+    radial-gradient(1px 1px at 88% 78%, #fff 60%, transparent 61%),
+    radial-gradient(1px 1px at 8% 40%, #ffc2e6 60%, transparent 61%),
+    var(--bg);
+  opacity: .9;
+}
+.nebula {
+  position: fixed; inset: -20%; z-index: -1; pointer-events: none;
+  background:
+    radial-gradient(40% 35% at 15% 20%, rgba(155, 92, 255, .28), transparent 70%),
+    radial-gradient(35% 30% at 85% 15%, rgba(47, 224, 208, .16), transparent 70%),
+    radial-gradient(45% 40% at 75% 85%, rgba(255, 95, 184, .18), transparent 70%),
+    radial-gradient(30% 30% at 30% 90%, rgba(111, 59, 214, .2), transparent 70%);
+  filter: blur(30px);
+  animation: drift 60s ease-in-out infinite alternate;
+}
+@keyframes drift { from { transform: translate(0, 0) } to { transform: translate(-3%, 2%) } }
+@media (prefers-reduced-motion: reduce) { .nebula { animation: none; } }
+</style>
+<style>
+/* ---- css/layout.css ---- */
+.topbar {
+  position: sticky; top: 0; z-index: 20;
+  display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;
+  padding: .7rem 1.2rem;
+  padding: calc(.7rem + env(safe-area-inset-top, 0px)) max(1.2rem, env(safe-area-inset-right, 0px)) .7rem max(1.2rem, env(safe-area-inset-left, 0px));
+  background: rgba(7, 6, 13, .78);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--line);
+}
+.brand { font-weight: 700; font-size: 1.15rem; letter-spacing: .04em; display: flex; align-items: center; gap: .5rem; }
+.brand-dot {
+  width: 14px; height: 14px; border-radius: 50%;
+  background: conic-gradient(var(--purple), var(--teal), var(--pink), var(--purple));
+  box-shadow: 0 0 14px rgba(155, 92, 255, .8);
+}
+.tabs { display: flex; gap: .25rem; flex-wrap: wrap; flex: 1; }
+.tabs button {
+  background: transparent; border: 1px solid transparent; color: var(--muted);
+  padding: .4rem .8rem; border-radius: 999px; cursor: pointer;
+}
+.tabs button:hover { color: var(--text); border-color: var(--line); }
+.tabs button.active {
+  color: var(--text);
+  background: linear-gradient(135deg, rgba(155, 92, 255, .35), rgba(47, 224, 208, .18));
+  border-color: rgba(155, 92, 255, .5);
+}
+.view { max-width: 1100px; margin: 0 auto; padding: 1.4rem 1.2rem 4rem; }
+/* notches and the home indicator (iPhone): keep content inside the safe area */
+.view { padding-left: max(1.2rem, env(safe-area-inset-left, 0px)); padding-right: max(1.2rem, env(safe-area-inset-right, 0px)); padding-bottom: calc(4rem + env(safe-area-inset-bottom, 0px)); }
+.grid { display: grid; gap: 1rem; }
+.grid.two { grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
+.grid.three { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+@media (max-width: 640px) {
+  .view { padding: 1rem .8rem 4rem; padding-left: max(.8rem, env(safe-area-inset-left, 0px)); padding-right: max(.8rem, env(safe-area-inset-right, 0px)); padding-bottom: calc(4rem + env(safe-area-inset-bottom, 0px)); }
+  .topbar { padding: .6rem .8rem; padding: calc(.6rem + env(safe-area-inset-top, 0px)) max(.8rem, env(safe-area-inset-right, 0px)) .6rem max(.8rem, env(safe-area-inset-left, 0px)); gap: .5rem; }
+  /* brand + help button on the first row, the eight tabs scroll sideways on the second */
+  .tabs { order: 3; flex: 1 0 100%; flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tabs button { flex: 0 0 auto; white-space: nowrap; }
+}
+</style>
+<style>
+/* ---- css/components.css ---- */
+.card {
+  background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 1rem 1.1rem; box-shadow: var(--shadow); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px);
+}
+.card.accent-purple { border-top: 2px solid var(--purple); }
+.card.accent-teal { border-top: 2px solid var(--teal); }
+.card.accent-pink { border-top: 2px solid var(--pink); }
+.btn {
+  display: inline-flex; align-items: center; gap: .4rem;
+  padding: .5rem .95rem; border-radius: 10px; cursor: pointer;
+  border: 1px solid var(--line); background: var(--panel-2); color: var(--text);
+  transition: transform .08s ease, box-shadow .15s ease;
+}
+.btn:hover { box-shadow: 0 0 0 2px rgba(155, 92, 255, .25); }
+.btn:active { transform: translateY(1px); }
+.btn.primary { background: linear-gradient(135deg, var(--purple), var(--purple-2)); border-color: transparent; }
+.btn.teal { background: linear-gradient(135deg, var(--teal), var(--teal-2)); border-color: transparent; color: #04211e; font-weight: 600; }
+.btn.pink { background: linear-gradient(135deg, var(--pink), var(--pink-2)); border-color: transparent; }
+.btn.ghost { background: transparent; }
+.btn.danger { border-color: rgba(255, 95, 126, .5); color: var(--danger); background: transparent; }
+.btn.sm { padding: .3rem .6rem; font-size: .85rem; border-radius: 8px; }
+.btn:disabled { opacity: .5; cursor: default; }
+input[type=text], input[type=number], input[type=date], input[type=time], select, textarea {
+  width: 100%; padding: .55rem .7rem; border-radius: 10px;
+  background: rgba(8, 6, 16, .7); border: 1px solid var(--line); color: var(--text);
+  outline: none;
+}
+select option { background: #14102a; }
+input:focus, select:focus, textarea:focus { border-color: var(--purple); box-shadow: 0 0 0 3px rgba(155, 92, 255, .2); }
+label.field { display: block; margin-bottom: .7rem; }
+label.field > span { display: block; font-size: .8rem; color: var(--muted); margin-bottom: .25rem; }
+.chips { display: flex; flex-wrap: wrap; gap: .4rem; }
+.chip {
+  padding: .3rem .7rem; border-radius: 999px; border: 1px solid var(--line);
+  background: transparent; color: var(--muted); cursor: pointer; font-size: .88rem;
+}
+.chip.on { color: var(--text); background: rgba(47, 224, 208, .16); border-color: var(--teal); }
+.chip.pink.on { background: rgba(255, 95, 184, .16); border-color: var(--pink); }
+.chip.purple.on { background: rgba(155, 92, 255, .2); border-color: var(--purple); }
+.scale { display: flex; gap: .3rem; }
+.scale button {
+  width: 34px; height: 34px; border-radius: 8px; border: 1px solid var(--line);
+  background: transparent; color: var(--muted); cursor: pointer;
+}
+.scale button.on { color: #fff; border-color: transparent; }
+.scale.emotion button.on { background: var(--purple); }
+.scale.urge button.on { background: var(--pink-2); }
+.scale.calm button.on { background: var(--teal-2); }
+.rowitem {
+  display: grid; grid-template-columns: 1fr auto; gap: .6rem; align-items: center;
+  padding: .55rem 0; border-bottom: 1px dashed var(--line);
+}
+.rowitem:last-child { border-bottom: none; }
+.rowitem .ctl { display: flex; gap: .6rem; align-items: center; flex-wrap: wrap; justify-content: flex-end; }
+.toggle { display: inline-flex; align-items: center; gap: .35rem; font-size: .85rem; color: var(--muted); cursor: pointer; }
+.toggle input { accent-color: var(--pink); }
+.pill { display: inline-block; padding: .1rem .55rem; border-radius: 999px; font-size: .75rem; border: 1px solid var(--line); color: var(--muted); }
+.pill.teal { color: var(--teal); border-color: var(--teal); }
+.pill.pink { color: var(--pink); border-color: var(--pink); }
+.pill.purple { color: #c9a8ff; border-color: var(--purple); }
+.pill.ok { color: var(--ok); border-color: var(--ok); }
+.pill.danger { color: var(--danger); border-color: var(--danger); }
+.list { display: flex; flex-direction: column; gap: .7rem; }
+.item { background: var(--panel-2); border: 1px solid var(--line); border-radius: 12px; padding: .8rem .9rem; }
+.item .head { display: flex; justify-content: space-between; gap: .6rem; align-items: baseline; flex-wrap: wrap; }
+.item .when { color: var(--muted); font-size: .8rem; }
+pre.quote { white-space: pre-wrap; margin: .5rem 0; padding: .6rem .8rem; background: rgba(0, 0, 0, .35); border-left: 3px solid var(--purple); border-radius: 6px; font: inherit; }
+.toast {
+  position: fixed; bottom: 1.2rem; left: 50%; transform: translateX(-50%); z-index: 50;
+  bottom: calc(1.2rem + env(safe-area-inset-bottom, 0px));
+  background: rgba(20, 14, 38, .95); border: 1px solid var(--teal); color: var(--text);
+  padding: .55rem 1rem; border-radius: 999px; box-shadow: var(--shadow);
+}
+.stat { text-align: center; padding: .6rem; }
+.stat .n { font-size: 1.8rem; font-weight: 700; background: linear-gradient(135deg, var(--teal), var(--purple), var(--pink)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.stat .l { color: var(--muted); font-size: .8rem; }
+.bar { height: 8px; border-radius: 4px; background: rgba(255, 255, 255, .08); overflow: hidden; }
+.bar > i { display: block; height: 100%; background: linear-gradient(90deg, var(--teal), var(--purple), var(--pink)); }
+table.tbl { width: 100%; border-collapse: collapse; font-size: .85rem; }
+table.tbl th, table.tbl td { padding: .35rem .5rem; border-bottom: 1px solid var(--line); text-align: left; }
+table.tbl th { color: var(--muted); font-weight: 500; }
+.heat { display: inline-block; width: 22px; height: 18px; border-radius: 4px; text-align: center; font-size: .72rem; line-height: 18px; }
+.help { font-size: .85rem; color: var(--muted); border-left: 2px solid var(--teal); padding-left: .6rem; margin: .4rem 0 .9rem; }
+.empty { color: var(--muted); font-style: italic; padding: .6rem 0; }
+details summary { cursor: pointer; color: var(--muted); }
+.tblwrap { overflow-x: auto; }
+
+/* sleep stretches on the diary card */
+.rowitem.sleepblock { display: block; }
+.sleephead { display: flex; justify-content: space-between; gap: .6rem; flex-wrap: wrap; margin-bottom: .4rem; }
+.sleeprow { display: flex; align-items: center; gap: .4rem; flex-wrap: wrap; margin: .3rem 0; }
+.sleeprow input[type=time] { width: 110px; }
+.sleephrs { min-width: 3.2rem; color: var(--teal); font-variant-numeric: tabular-nums; }
+</style>
+<style>
+/* ---- css/views.css ---- */
+/* Today */
+.today-head { display: flex; align-items: baseline; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.today-head h2 { margin: 0; }
+.daynav { display: flex; gap: .3rem; }
+.skillgroups { display: grid; gap: .6rem; }
+.skillgroup h4 { margin: 0 0 .3rem; font-size: .8rem; color: var(--muted); }
+.history .heatrow { display: flex; gap: .25rem; align-items: center; margin-bottom: .3rem; }
+.history .heatrow .lbl { width: 120px; font-size: .8rem; color: var(--muted); }
+
+/* Drawer */
+.drawer-compose textarea { min-height: 120px; }
+.holdopts { display: flex; gap: .4rem; flex-wrap: wrap; }
+.countdown { font-variant-numeric: tabular-nums; font-weight: 600; color: var(--teal); }
+.drawer-ready { border-color: var(--teal); box-shadow: 0 0 0 1px rgba(47, 224, 208, .25), var(--shadow); }
+.drawer-held .msg { filter: blur(6px); user-select: none; pointer-events: none; }
+.facts { display: grid; gap: .5rem; margin: .6rem 0; }
+.facts textarea { min-height: 50px; }
+.drawer-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: .5rem; }
+
+/* Chain */
+.links { display: flex; flex-direction: column; gap: .4rem; margin: .5rem 0; }
+.link { display: grid; grid-template-columns: 110px 1fr auto; gap: .5rem; align-items: center; }
+.link .k { font-size: .75rem; text-transform: uppercase; letter-spacing: .05em; }
+.chainview .step { display: grid; grid-template-columns: 130px 1fr; gap: .6rem; padding: .35rem 0; border-bottom: 1px dashed var(--line); }
+.chainview .step b { color: var(--muted); font-weight: 500; font-size: .85rem; }
+
+/* People */
+.people-nav { display: flex; gap: .4rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.person-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+@media (max-width: 720px) { .person-cols { grid-template-columns: 1fr; } }
+.col-kind { border-top: 2px solid var(--teal); }
+.col-hurt { border-top: 2px solid var(--pink); }
+.entry { padding: .45rem 0; border-bottom: 1px dashed var(--line); }
+.entry .d { color: var(--muted); font-size: .78rem; }
+.hitrate { font-size: 2rem; font-weight: 700; color: var(--teal); }
+
+/* Coach */
+.coach-steps { counter-reset: s; }
+.coach-steps .card { position: relative; }
+.oa { border-left: 3px solid var(--pink); padding: .5rem .8rem; background: rgba(255, 95, 184, .07); border-radius: 6px; margin: .4rem 0; }
+.oa.fit { border-color: var(--teal); background: rgba(47, 224, 208, .07); }
+.script-out { white-space: pre-wrap; background: rgba(0, 0, 0, .4); border: 1px solid var(--line); padding: .8rem; border-radius: 10px; min-height: 80px; }
+
+/* Review */
+.review pre { white-space: pre-wrap; background: rgba(0, 0, 0, .4); padding: .8rem; border-radius: 10px; border: 1px solid var(--line); font-size: .85rem; }
+
+/* Settings */
+.editlist { display: flex; flex-direction: column; gap: .35rem; }
+.editlist .row input { flex: 1; }
+
+/* Today: keep the daily card short */
+.today .card { padding: .75rem .9rem; }
+.today .card h3 { margin: 0 0 .35rem; }
+.today .rowitem { padding: .28rem 0; }
+.today .scale { gap: .2rem; }
+.today .scale button { width: 27px; height: 27px; border-radius: 6px; font-size: .8rem; }
+.today .toggle { font-size: .78rem; }
+.today .help { margin: .2rem 0 .8rem; }
+.today details > summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: .6rem; flex-wrap: wrap; }
+.today details > summary::-webkit-details-marker { display: none; }
+.today details > summary h3 { margin: 0; display: inline-flex; align-items: center; gap: .4rem; }
+.today details > summary::before { content: "▸"; color: var(--muted); font-size: .8rem; }
+.today details[open] > summary::before { content: "▾"; }
+.today details[open] > summary { margin-bottom: .5rem; }
+.today .notewrap { margin-top: .7rem; padding-top: .6rem; border-top: 1px dashed var(--line); }
+.today .notewrap textarea { width: 100%; }
+.today .skillgroups { gap: .4rem; }
+.today .chip { padding: .18rem .5rem; font-size: .78rem; }
+.today .sleeprow { margin: .15rem 0; }
+</style>
+<style>
+/* ---- css/crisis.css ---- */
+.crisis-btn {
+  margin-left: auto;
+  padding: .55rem 1.1rem; border-radius: 999px; cursor: pointer; font-weight: 600;
+  border: 1px solid rgba(255, 95, 184, .7); color: #fff;
+  background: linear-gradient(135deg, var(--pink), var(--purple-2));
+  box-shadow: 0 0 18px rgba(255, 95, 184, .35);
+}
+.crisis-btn:hover { box-shadow: 0 0 26px rgba(255, 95, 184, .6); }
+.crisis {
+  position: fixed; inset: 0; z-index: 40; overflow-y: auto;
+  background: radial-gradient(60% 50% at 50% 0%, rgba(111, 59, 214, .35), transparent 70%), rgba(5, 4, 10, .97);
+  padding: 1.5rem 1rem 3rem;
+  padding: calc(1.5rem + env(safe-area-inset-top, 0px)) max(1rem, env(safe-area-inset-right, 0px)) calc(3rem + env(safe-area-inset-bottom, 0px)) max(1rem, env(safe-area-inset-left, 0px));
+}
+.crisis .inner { max-width: 720px; margin: 0 auto; }
+.crisis .steps { display: flex; gap: .3rem; margin-bottom: 1rem; flex-wrap: wrap; }
+.crisis .steps button {
+  flex: 1; min-width: 90px; padding: .45rem .5rem; border-radius: 10px; cursor: pointer;
+  background: transparent; border: 1px solid var(--line); color: var(--muted); font-size: .85rem;
+}
+.crisis .steps button.active { color: var(--text); border-color: var(--teal); background: rgba(47, 224, 208, .12); }
+.crisis h1 { font-size: 1.7rem; margin-bottom: .3rem; }
+.crisis .lead { font-size: 1.1rem; color: var(--text); }
+.crisis .big { font-size: 1.15rem; line-height: 1.6; }
+.crisis .close { position: absolute; top: 1rem; right: 1rem; top: calc(1rem + env(safe-area-inset-top, 0px)); right: calc(1rem + env(safe-area-inset-right, 0px)); }
+/* phones: the Close button sits above the step row instead of on top of it */
+@media (max-width: 640px) { .crisis .inner { padding-top: 2.4rem; } }
+.breath {
+  display: grid; place-items: center; margin: 1.2rem auto; width: 220px; height: 220px; position: relative;
+}
+.breath .ring {
+  position: absolute; inset: 0; border-radius: 50%;
+  background: radial-gradient(circle, rgba(47, 224, 208, .35), rgba(155, 92, 255, .25) 60%, transparent 72%);
+  transform: scale(.6); transition: transform 4s ease-in-out;
+}
+.breath.in .ring { transform: scale(1); transition-duration: 4s; }
+.breath.out .ring { transform: scale(.6); transition-duration: 6s; }
+.breath .word { position: relative; font-size: 1.4rem; font-weight: 600; z-index: 1; }
+.breath .t { position: absolute; bottom: 12px; font-size: .85rem; color: var(--muted); }
+.acro { display: grid; gap: .5rem; margin: .8rem 0; }
+.acro > div { display: grid; grid-template-columns: 44px 1fr; gap: .6rem; align-items: start; }
+.acro > div > b { font-size: 1.4rem; color: var(--pink); line-height: 1.2; }
+.tipp { display: grid; gap: .6rem; }
+.tipp .card { padding: .8rem .9rem; }
+.timerbtn .countdown { margin-left: .4rem; }
+.plainlist { list-style: none; padding: 0; margin: .4rem 0; display: grid; gap: .35rem; }
+.plainlist li { display: flex; gap: .5rem; align-items: center; padding: .4rem .6rem; border: 1px solid var(--line); border-radius: 10px; }
+.plainlist li.done { opacity: .5; text-decoration: line-through; }
+.plainlist li input { accent-color: var(--teal); }
+.contacts .item b { font-size: 1.05rem; }
+.contacts .item .num { font-size: 1.2rem; color: var(--teal); }
+.rate { display: flex; gap: .3rem; flex-wrap: wrap; }
+.rate button { width: 36px; height: 36px; border-radius: 8px; border: 1px solid var(--line); background: transparent; color: var(--muted); cursor: pointer; }
+.rate button.on { background: var(--purple); color: #fff; border-color: transparent; }
+</style>
+</head>
+<body>
+<div class="stars" aria-hidden="true"></div>
+<div class="nebula" aria-hidden="true"></div>
+
+<header class="topbar">
+  <div class="brand"><span class="brand-dot"></span>Ballast</div>
+  <nav class="tabs" id="tabs">
+    <button data-tab="today" class="active">Today</button>
+    <button data-tab="drawer">Drawer</button>
+    <button data-tab="chain">Chain</button>
+    <button data-tab="people">People</button>
+    <button data-tab="coach">Coach</button>
+    <button data-tab="suspicion">Suspicion</button>
+    <button data-tab="review">Review</button>
+    <button data-tab="settings">Settings</button>
+  </nav>
+  <button id="crisis-btn" class="crisis-btn" title="Guided steps for right now">I need help now</button>
+</header>
+
+<main id="view" class="view"></main>
+
+<div id="crisis" class="crisis hidden" role="dialog" aria-modal="true"></div>
+<div id="toast" class="toast hidden"></div>
+
+<script type="module">
+/* ---- js/compat.js ---- */
+const __m_js_compat_js = (() => {
+  // Guards for browsers that lack a few APIs the app uses (mainly older iOS Safari).
+  // Imported first by state.js so it runs before anything else touches these.
+  // The app calls no navigator.vibrate, Notification or service-worker APIs, so there is
+  // nothing to guard for those; the only newer API it relies on is structuredClone.
+
+  if (typeof globalThis.structuredClone !== "function") {
+    // Everything the app clones is plain JSON data, so a JSON round trip is equivalent.
+    globalThis.structuredClone = (v) => JSON.parse(JSON.stringify(v));
+  }
+  return {  };
+})();
+
+/* ---- js/data/skills.js ---- */
+const __m_js_data_skills_js = (() => {
+  // Static DBT reference tables. Plain data, no logic.
+
+  const DEFAULT_EMOTIONS = ["Sadness", "Anger", "Fear", "Shame", "Loneliness", "Suspicious", "Joy"];
+
+  const DEFAULT_URGES = [
+    "Hurt myself",
+    "Give up / quit",
+    "Lash out",
+    "Send an impulsive message",
+    "Push someone away",
+    "Use (substances, food, spending)",
+  ];
+
+  const SKILL_GROUPS = [
+    { name: "Mindfulness", skills: ["Observe & describe", "Wise mind", "Non-judgmental stance", "One thing at a time"] },
+    { name: "Distress tolerance", skills: ["STOP", "TIPP", "Self-soothe", "Distract (ACCEPTS)", "Pros & cons", "Radical acceptance", "Urge surfing"] },
+    { name: "Emotion regulation", skills: ["Check the facts", "Opposite action", "Problem solving", "PLEASE (body care)", "Accumulate positives"] },
+    { name: "Interpersonal", skills: ["DEAR MAN", "GIVE", "FAST", "Asked for help", "Said no"] },
+  ];
+
+  const HOLD_OPTIONS = [
+    { label: "20 min", ms: 20 * 60e3 },
+    { label: "1 hour", ms: 60 * 60e3 },
+    { label: "3 hours", ms: 3 * 60 * 60e3 },
+    { label: "Overnight (12 h)", ms: 12 * 60 * 60e3 },
+    { label: "24 hours", ms: 24 * 60 * 60e3 },
+  ];
+
+  const FACT_PROMPTS = [
+    { key: "know", q: "What do I know for certain happened? (Only things a camera would have recorded.)" },
+    { key: "assume", q: "What am I assuming about what they meant or feel?" },
+    { key: "other", q: "What is one other explanation that is at least possible?" },
+    { key: "calm", q: "If I were calm right now, what would I say instead, if anything?" },
+    { key: "cost", q: "If I send this as written, what happens in an hour? Tomorrow?" },
+  ];
+
+  // Emotion -> does-it-fit-the-facts question -> opposite action -> when-justified action.
+  const EMOTION_GUIDE = {
+    Fear: {
+      fits: "Is there a real threat to my life, health, or wellbeing, or that of someone I care about, right now?",
+      opposite: [
+        "Approach the thing you are afraid of, in small steps, and keep doing it.",
+        "Do what you are avoiding. Stand tall, speak clearly, look at people.",
+        "Do not ask for reassurance more than once.",
+      ],
+      justified: "Reduce the threat: leave, get help, make a plan, take one concrete protective action.",
+    },
+    Anger: {
+      fits: "Is an important goal actually being blocked, or am I being attacked, insulted, or hurt right now?",
+      opposite: [
+        "Gently avoid or step away for a set time (say how long).",
+        "Do something a little kind for the person, or at least neutral.",
+        "Imagine understanding their side. Relax the jaw, hands, and shoulders. Half-smile.",
+        "Do not rehearse the argument in your head.",
+      ],
+      justified: "Act on the goal, not the person: say what you need clearly (DEAR MAN), set a limit, or leave.",
+    },
+    Sadness: {
+      fits: "Have I actually lost something or someone, or are things really not the way I need them to be?",
+      opposite: [
+        "Get active: move, shower, go outside, do one small thing you can finish.",
+        "Do something that gives a sense of being capable.",
+        "Approach rather than avoid people and tasks. Sit and stand upright.",
+      ],
+      justified: "Grieve on purpose: feel it, name it, let someone know, and still keep the day's basics going.",
+    },
+    Shame: {
+      fits: "If people I care about knew this, would they genuinely reject me for it, and would that be a fair response?",
+      opposite: [
+        "Do not hide. Tell someone safe what happened.",
+        "Keep doing the thing (if it is not actually wrong), head up, voice steady.",
+        "Repair if there is something to repair, then stop apologising.",
+      ],
+      justified: "Own it, make a repair, accept the consequence, and then let it be over.",
+    },
+    Guilt: {
+      fits: "Did I actually break one of my own values, or only someone else's rule for me?",
+      opposite: ["Keep doing what you did. No apology, no over-explaining.", "Stand by the choice out loud."],
+      justified: "Apologise once, repair what you can, commit to a different action next time, then drop it.",
+    },
+    Loneliness: {
+      fits: "Am I actually cut off from people, or am I feeling alone while people are in fact still here?",
+      opposite: [
+        "Reach out to one safe person with a normal, low-intensity message (not the big one: put that in the Drawer).",
+        "Be around people without needing anything from them: a shop, a class, a call about nothing.",
+        "Do a thing you enjoy alone, on purpose, not as a punishment.",
+      ],
+      justified: "Build contact deliberately: schedule one call, one invite, one group thing this week.",
+    },
+    Jealousy: {
+      fits: "Is this relationship really in danger of being damaged or taken, based on things that happened?",
+      opposite: [
+        "Stop checking, spying, testing, or interrogating.",
+        "Let go of controlling what the other person does.",
+        "Relax the body. Do something for yourself.",
+      ],
+      justified: "Say the concern once, plainly, and ask for what you need (DEAR MAN). Protect what is yours to protect.",
+    },
+    Envy: {
+      fits: "Does the other person really have something I need (not just want), and is it within my reach?",
+      opposite: ["Count what you do have, specifically.", "Stop exaggerating what they have.", "Stop the comparing behaviour."],
+      justified: "Work toward getting it, or improve your own situation in one concrete way.",
+    },
+    Love: {
+      fits: "Does this person actually enhance my life and treat me well, and is a relationship possible and healthy?",
+      opposite: [
+        "Avoid contact for now. Distract. Remind yourself of the real reasons this does not work.",
+        "Stop looking at their photos, messages, and pages.",
+      ],
+      justified: "Express it in a measured way and act in ways that build the relationship over time.",
+    },
+  };
+
+  const DEAR_MAN = [
+    { key: "describe", label: "Describe", hint: "Just the facts of the situation. No judgements." },
+    { key: "express", label: "Express", hint: "How you feel about it, using 'I feel'." },
+    { key: "assert", label: "Assert", hint: "Ask clearly for what you want, or say no clearly." },
+    { key: "reinforce", label: "Reinforce", hint: "What is in it for them if they do this." },
+    { key: "mindful", label: "(stay) Mindful", hint: "Your one-line broken-record sentence if they derail." },
+    { key: "appear", label: "Appear confident", hint: "Reminder to yourself: posture, voice, eye contact." },
+    { key: "negotiate", label: "Negotiate", hint: "What you can offer or accept instead." },
+  ];
+
+  const GIVE_FAST = {
+    GIVE: ["Gentle: no attacks, threats, or judging", "Interested: listen, do not interrupt", "Validate: acknowledge their side", "Easy manner: a little lightness"],
+    FAST: ["Fair to yourself and them", "no over-Apologising", "Stick to your values", "Truthful: no exaggerating or acting helpless"],
+  };
+
+  const LINK_KINDS = ["event", "thought", "feeling", "body", "action"];
+
+  const DEFAULT_SETTINGS = {
+    soothe: ["Hot shower or cold face wash", "Weighted blanket", "One song on repeat", "Tea, slowly", "Pet or soft thing"],
+    distract: ["Walk around the block", "Count backwards from 300 by 7", "Sort or clean one drawer", "Video with no plot", "Puzzle or game for 15 min"],
+    plan: "",
+    contacts: [],
+    hotlines: [
+      { name: "988 Suicide & Crisis Lifeline (US)", number: "988", note: "Call or text, 24/7" },
+      { name: "Crisis Text Line (US)", number: "Text HOME to 741741", note: "" },
+    ],
+    emergency: "If you are in immediate danger, call your local emergency number.",
+  };
+  return { DEFAULT_EMOTIONS, DEFAULT_URGES, SKILL_GROUPS, HOLD_OPTIONS, FACT_PROMPTS, EMOTION_GUIDE, DEAR_MAN, GIVE_FAST, LINK_KINDS, DEFAULT_SETTINGS };
+})();
+
+/* ---- js/storage.js ---- */
+const __m_js_storage_js = (() => {
+  // Persistence. Prefers the local server's api/state (a file on disk) when the page is
+  // served from this machine by server.py; otherwise everything lives in localStorage.
+  // That second case is what you get from dist/Ballast.html opened from disk, or hosted
+  // on a static site such as GitHub Pages (including iPhone Safari).
+
+  const LS_KEY = "ballast.v1";
+  // Relative on purpose: resolves under any sub-path, and is never a root-absolute URL.
+  const API = "api/state";
+  let useServer = null; // unknown until first load
+  let timer = null;
+  let pending = null;
+
+  // Only look for the local server when the page really came from one on this machine.
+  // From file:// or a public host there is nothing to find, and the app must not send
+  // requests to a path on somebody else's server.
+  function serverPossible() {
+    if (typeof location === "undefined") return true; // non-browser test harness
+    return location.protocol === "http:" && ["127.0.0.1", "localhost", "[::1]"].includes(location.hostname);
+  }
+
+  async function load() {
+    if (serverPossible()) {
+      try {
+        const r = await fetch(API, { cache: "no-store" });
+        if (r.ok) {
+          useServer = true;
+          const data = await r.json();
+          if (data) return data;
+          // server has nothing yet: migrate anything in localStorage
+          const ls = readLS();
+          if (ls) await putServer(ls);
+          return ls;
+        }
+      } catch (e) { /* no server */ }
+    }
+    useServer = false;
+    return readLS();
+  }
+
+  function backend() { return useServer ? "file" : "browser"; }
+
+  function save(state) {
+    pending = JSON.parse(JSON.stringify(state));
+    writeLS(pending); // durable browser copy before the debounce or tab close
+    clearTimeout(timer);
+    timer = setTimeout(flush, 400);
+  }
+
+  async function flush() {
+    if (!pending) return;
+    const s = pending; pending = null;
+    writeLS(s);
+    if (useServer) {
+      try { await putServer(s); } catch (e) { console.warn("save to server failed", e); window.alert("Ballast could not save to its local file. Your browser copy is retained when storage is available. Export a JSON backup in Settings before closing."); }
+    }
+  }
+
+  async function putServer(s) {
+    const r = await fetch(API, { method: "PUT", headers: { "Content-Type": "application/json" }, body: JSON.stringify(s), keepalive: true });
+    if (!r.ok) throw new Error("Save failed: HTTP " + r.status);
+  }
+
+  // Every localStorage touch is wrapped: Safari private browsing, blocked site data and
+  // full storage all make it throw, and the app must keep running when that happens.
+  function readLS() {
+    try { const t = localStorage.getItem(LS_KEY); return t ? JSON.parse(t) : null; } catch (e) { return null; }
+  }
+  let warnedLS = false;
+  function writeLS(s) {
+    try { localStorage.setItem(LS_KEY, JSON.stringify(s)); } catch (e) {
+      if (warnedLS) return; // one warning per session, not one per keystroke
+      warnedLS = true;
+      window.alert("Ballast could not save its browser copy. Storage may be full or disabled (private browsing does this). Export a JSON backup in Settings now.");
+    }
+  }
+
+  window.addEventListener("pagehide", () => { flush(); });
+  return { load, backend, save, flush };
+})();
+
+/* ---- js/state.js ---- */
+const __m_js_state_js = (() => {
+  void __m_js_compat_js;
+  const { DEFAULT_EMOTIONS, DEFAULT_URGES, DEFAULT_SETTINGS } = __m_js_data_skills_js;
+  const storage = __m_js_storage_js;
+
+  const state = blank();
+
+  function blank() {
+    return {
+      version: 1,
+      diary: {},        // "YYYY-MM-DD" -> day record
+      drawer: [],       // held messages
+      chains: [],       // chain analyses
+      people: [],       // ledger cards
+      coach: [],        // emotion check-ins
+      scripts: [],      // DEAR MAN scripts
+      crises: [],       // crisis-mode uses
+      suspicions: [],   // suspicion checks
+      settings: {
+        ...structuredClone(DEFAULT_SETTINGS),
+        emotions: [...DEFAULT_EMOTIONS],
+        urges: [...DEFAULT_URGES],
+      },
+    };
+  }
+
+  async function init() {
+    const loaded = await storage.load();
+    if (loaded && typeof loaded === "object") {
+      const fresh = blank();
+      Object.assign(state, fresh, loaded);
+      state.settings = { ...fresh.settings, ...(loaded.settings || {}) };
+      // Data saved before "Suspicious" joined the default list: add it once.
+      const em = state.settings.emotions;
+      if (!state.settings.suspiciousAdded && !em.includes("Suspicious")) {
+        const i = em.indexOf("Joy");
+        em.splice(i >= 0 ? i : em.length, 0, "Suspicious");
+      }
+      state.settings.suspiciousAdded = true;
+    }
+    return state;
+  }
+
+  function save() { storage.save(state); }
+
+  function replaceState(obj) {
+    const fresh = blank();
+    for (const k of Object.keys(state)) delete state[k];
+    Object.assign(state, fresh, obj);
+    state.settings = { ...fresh.settings, ...(obj.settings || {}) };
+    save();
+  }
+
+  function resetState() { replaceState({}); }
+
+  // ---- helpers ----
+  const uid = () => Math.random().toString(36).slice(2, 10) + Date.now().toString(36);
+
+  function dayKey(d = new Date()) {
+    const p = (n) => String(n).padStart(2, "0");
+    return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
+  }
+  function shiftDay(key, n) {
+    const [y, m, d] = key.split("-").map(Number);
+    return dayKey(new Date(y, m - 1, d + n));
+  }
+  function fmtDate(key) {
+    const [y, m, d] = key.split("-").map(Number);
+    return new Date(y, m - 1, d).toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric" });
+  }
+  function fmtWhen(ts) {
+    return new Date(ts).toLocaleString(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
+  }
+
+  function getDay(key) {
+    if (!state.diary[key]) {
+      state.diary[key] = { emotions: {}, urges: {}, vuln: { sleep: "", ate: null, substances: null, pain: null, conflict: null }, skills: [], note: "" };
+    }
+    const d = state.diary[key];
+    d.emotions ||= {}; d.urges ||= {}; d.vuln ||= {}; d.skills ||= []; d.note ||= "";
+    d.sleep ||= [];
+    // older cards stored a single "hours last night" number: carry it over as one untimed stretch
+    if (!d.sleep.length && d.vuln.sleep !== "" && d.vuln.sleep != null && Number(d.vuln.sleep) > 0) {
+      d.sleep.push({ start: "", end: "", hours: Number(d.vuln.sleep) });
+    }
+    return d;
+  }
+
+  /** Hours of one sleep stretch: from its clock times when both are set (crossing midnight
+   *  is fine), else the typed hours. */
+  function sleepHours(ep) {
+    if (ep.start && ep.end) {
+      const [sh, sm] = ep.start.split(":").map(Number), [eh, em] = ep.end.split(":").map(Number);
+      let mins = (eh * 60 + em) - (sh * 60 + sm);
+      if (mins <= 0) mins += 24 * 60;
+      return Math.round(mins / 6) / 10;
+    }
+    const h = Number(ep.hours);
+    return h > 0 ? h : 0;
+  }
+
+  /** {total, count, longest} for a day's sleep stretches. Also mirrors the total into
+   *  vuln.sleep so older code (review, exports) keeps reading one number. */
+  function sleepSummary(d) {
+    const eps = (d.sleep || []).map(sleepHours).filter((h) => h > 0);
+    const total = Math.round(eps.reduce((a, b) => a + b, 0) * 10) / 10;
+    const out = { total, count: eps.length, longest: eps.length ? Math.max(...eps) : 0 };
+    d.vuln.sleep = eps.length ? String(total) : "";
+    return out;
+  }
+
+  function dayHasContent(d) {
+    if (!d) return false;
+    return Object.keys(d.emotions || {}).length > 0 || Object.keys(d.urges || {}).length > 0 || (d.skills || []).length > 0 || !!d.note;
+  }
+  return { state, init, save, replaceState, resetState, uid, dayKey, shiftDay, fmtDate, fmtWhen, getDay, sleepHours, sleepSummary, dayHasContent };
+})();
+
+/* ---- js/router.js ---- */
+const __m_js_router_js = (() => {
+  // Tab routing. Each view exports render(root) and optionally unmount().
+  // Navigating replaces the #view element so old listeners and timers go away.
+
+  const views = {};
+  let currentTab = "today";
+
+  function register(name, mod) { views[name] = mod; }
+
+  function go(tab) {
+    if (!views[tab]) return;
+    views[currentTab]?.unmount?.();
+    currentTab = tab;
+    document.querySelectorAll("#tabs button").forEach((b) => b.classList.toggle("active", b.dataset.tab === tab));
+    // On a phone the tab row scrolls sideways: keep the active tab in sight.
+    const bar = document.getElementById("tabs"), act = bar.querySelector(".active");
+    if (act && act.scrollIntoView && bar.scrollWidth > bar.clientWidth) act.scrollIntoView({ inline: "center", block: "nearest" });
+    refresh();
+    window.scrollTo({ top: 0 });
+  }
+
+  function refresh() {
+    const old = document.getElementById("view");
+    const fresh = old.cloneNode(false);
+    old.replaceWith(fresh);
+    views[currentTab].render(fresh);
+  }
+
+  function current() { return currentTab; }
+  return { register, go, refresh, current };
+})();
+
+/* ---- js/ui/dom.js ---- */
+const __m_js_ui_dom_js = (() => {
+  // Tiny DOM helpers shared by the views.
+
+  function esc(s) {
+    return String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  }
+
+  function el(html) {
+    const t = document.createElement("template");
+    t.innerHTML = html.trim();
+    return t.content.firstElementChild;
+  }
+
+  let toastTimer = null;
+  function toast(msg) {
+    const t = document.getElementById("toast");
+    t.textContent = msg;
+    t.classList.remove("hidden");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => t.classList.add("hidden"), 1800);
+  }
+
+  function scaleHtml(cls, name, value, max = 5) {
+    let h = `<div class="scale ${cls}" data-scale="${esc(name)}">`;
+    for (let i = 0; i <= max; i++) h += `<button type="button" data-v="${i}" class="${value === i ? "on" : ""}">${i}</button>`;
+    return h + "</div>";
+  }
+
+  function copyText(text) {
+    // navigator.clipboard is missing outside secure contexts and in some webviews: fall back.
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      return navigator.clipboard.writeText(text).then(() => toast("Copied")).catch(() => fallbackCopy(text));
+    }
+    fallbackCopy(text);
+  }
+  function fallbackCopy(text) {
+    const ta = document.createElement("textarea");
+    ta.value = text; ta.setAttribute("readonly", ""); ta.style.cssText = "position:fixed;top:0;left:0;opacity:0";
+    document.body.appendChild(ta);
+    ta.focus(); ta.select();
+    try { ta.setSelectionRange(0, text.length); } catch (e) { /* iOS wants an explicit range */ }
+    let ok = false;
+    try { ok = document.execCommand("copy"); } catch (e) { ok = false; }
+    toast(ok ? "Copied" : "Could not copy");
+    ta.remove();
+  }
+
+  function download(name, text, type = "text/plain") {
+    // iPhone/iPad home-screen app (navigator.standalone is iOS-only): a blob download can
+    // strand you on a preview with no way back, so hand the file to the share sheet instead
+    // (Save to Files, AirDrop, Mail). Everywhere else this is an ordinary download.
+    if (navigator.standalone === true) {
+      try {
+        const file = new File([text], name, { type });
+        if (navigator.canShare && navigator.canShare({ files: [file] })) {
+          navigator.share({ files: [file], title: name }).catch((e) => { if (!e || e.name !== "AbortError") plainDownload(name, text, type); });
+          return;
+        }
+      } catch (e) { /* fall through to the plain download */ }
+    }
+    plainDownload(name, text, type);
+  }
+  function plainDownload(name, text, type) {
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([text], { type }));
+    a.download = name;
+    a.click();
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  }
+
+  function fmtCountdown(ms) {
+    if (ms <= 0) return "ready";
+    const s = Math.ceil(ms / 1000);
+    const h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60), sec = s % 60;
+    if (h) return `${h}h ${String(m).padStart(2, "0")}m`;
+    return `${m}:${String(sec).padStart(2, "0")}`;
+  }
+
+  function confirmBox(msg) { return window.confirm(msg); }
+  return { esc, el, toast, scaleHtml, copyText, download, fmtCountdown, confirmBox };
+})();
+
+/* ---- js/ui/today.js ---- */
+const __m_js_ui_today_js = (() => {
+  const { state, save, dayKey, shiftDay, fmtDate, getDay, dayHasContent, sleepHours, sleepSummary } = __m_js_state_js;
+  const { SKILL_GROUPS } = __m_js_data_skills_js;
+  const { esc, scaleHtml, toast } = __m_js_ui_dom_js;
+
+  let current = dayKey();
+  // folded sections stay the way you left them for the session
+  let openSkills = false, openHistory = false;
+
+  function render(root) {
+    const key = current;
+    const d = getDay(key);
+    const s = state.settings;
+    const isToday = key === dayKey();
+
+    root.innerHTML = `
+    <div class="today">
+    <div class="today-head">
+      <h2>${isToday ? "Today" : fmtDate(key)}<span class="muted small"> &nbsp;${isToday ? fmtDate(key) : ""}</span></h2>
+      <div class="daynav">
+        <button class="btn sm" data-nav="-1">&larr;</button>
+        <button class="btn sm" data-nav="0" ${isToday ? "disabled" : ""}>Today</button>
+        <button class="btn sm" data-nav="1" ${isToday ? "disabled" : ""}>&rarr;</button>
+      </div>
+    </div>
+    <p class="help small">One card a day: peak of each feeling (0 none, 5 worst ever), urges and whether you acted, sleep, skills. Quick beats perfect.</p>
+
+    <div class="grid two">
+      <section class="card accent-purple">
+        <h3>Emotions (peak today)</h3>
+        ${s.emotions.map((e) => `
+          <div class="rowitem"><span>${esc(e)}</span>${scaleHtml("emotion", "emo:" + e, d.emotions[e] ?? null)}</div>`).join("")}
+      </section>
+
+      <section class="card accent-pink">
+        <h3>Urges</h3>
+        ${s.urges.map((u) => `
+          <div class="rowitem"><span>${esc(u)}</span>
+            <div class="ctl">
+              ${scaleHtml("urge", "urge:" + u, d.urges[u]?.level ?? null)}
+              <label class="toggle" title="acted on it"><input type="checkbox" data-acted="${esc(u)}" ${d.urges[u]?.acted ? "checked" : ""}> acted</label>
+            </div>
+          </div>`).join("")}
+      </section>
+
+      <section class="card accent-teal">
+        <h3>Body & vulnerability</h3>
+        ${sleepHtml(d)}
+        ${[["ate", "Ate regular meals"], ["substances", "Alcohol / drugs"], ["pain", "Physical pain or illness"], ["conflict", "Conflict with someone"]].map(([k, l]) => `
+          <div class="rowitem"><span>${l}</span>
+            <div class="ctl chips">
+              <button class="chip ${d.vuln[k] === true ? "on" : ""}" data-vk="${k}" data-vv="1">yes</button>
+              <button class="chip ${d.vuln[k] === false ? "on" : ""}" data-vk="${k}" data-vv="0">no</button>
+            </div>
+          </div>`).join("")}
+      </section>
+
+      <section class="card">
+        <details ${d.skills.length ? "" : ""} ${openSkills ? "open" : ""} data-fold="skills">
+          <summary><h3>Skills used ${d.skills.length ? `<span class="pill purple">${d.skills.length}</span>` : ""}</h3>
+            ${d.skills.length && !openSkills ? `<span class="muted small">${esc(d.skills.join(", "))}</span>` : ""}</summary>
+          <div class="skillgroups">
+            ${SKILL_GROUPS.map((g) => `
+              <div class="skillgroup"><h4>${g.name}</h4>
+                <div class="chips">${g.skills.map((sk) => `<button class="chip purple ${d.skills.includes(sk) ? "on" : ""}" data-skill="${esc(sk)}">${esc(sk)}</button>`).join("")}</div>
+              </div>`).join("")}
+          </div>
+        </details>
+        <div class="notewrap">
+          <h3>Note</h3>
+          <textarea data-note rows="2" placeholder="Anything that mattered today. One line is fine.">${esc(d.note)}</textarea>
+        </div>
+      </section>
+    </div>
+
+    <section class="card mt history">
+      <details ${openHistory ? "open" : ""} data-fold="history">
+        <summary><h3>Last 14 days</h3></summary>
+        ${historyHtml()}
+      </details>
+    </section>
+    </div>`;
+
+    root.addEventListener("click", onClick);
+    root.addEventListener("change", onChange);
+    root.addEventListener("input", onInput);
+    root.addEventListener("toggle", onToggle, true);
+  }
+
+  function onToggle(e) {
+    const f = e.target.dataset?.fold;
+    if (f === "skills") openSkills = e.target.open;
+    if (f === "history") openHistory = e.target.open;
+  }
+
+  function onClick(e) {
+    const nav = e.target.closest("[data-nav]");
+    if (nav) {
+      const n = Number(nav.dataset.nav);
+      current = n === 0 ? dayKey() : shiftDay(current, n);
+      if (current > dayKey()) current = dayKey();
+      rerender(); return;
+    }
+    const d = getDay(current);
+    const sb = e.target.closest(".scale button");
+    if (sb) {
+      const name = sb.closest(".scale").dataset.scale;
+      const v = Number(sb.dataset.v);
+      const [kind, ...rest] = name.split(":"); const label = rest.join(":");
+      if (kind === "emo") { if (d.emotions[label] === v) delete d.emotions[label]; else d.emotions[label] = v; }
+      if (kind === "urge") {
+        d.urges[label] ||= { level: 0, acted: false };
+        if (d.urges[label].level === v && !d.urges[label].acted) delete d.urges[label]; else d.urges[label].level = v;
+      }
+      save(); rerender(); return;
+    }
+    const vk = e.target.closest("[data-vk]");
+    if (vk) { const val = vk.dataset.vv === "1"; d.vuln[vk.dataset.vk] = d.vuln[vk.dataset.vk] === val ? null : val; save(); rerender(); return; }
+    const sk = e.target.closest("[data-skill]");
+    if (sk) {
+      const name = sk.dataset.skill;
+      const i = d.skills.indexOf(name);
+      if (i >= 0) d.skills.splice(i, 1); else d.skills.push(name);
+      openSkills = true;
+      save(); rerender(); return;
+    }
+    const hist = e.target.closest("[data-day]");
+    if (hist) { current = hist.dataset.day; rerender(); return; }
+    if (e.target.closest("[data-sleep-add]")) { d.sleep.push({ start: "", end: "", hours: "" }); save(); rerender(); return; }
+    const rm = e.target.closest("[data-sleep-rm]");
+    if (rm) { d.sleep.splice(Number(rm.dataset.sleepRm), 1); sleepSummary(d); save(); rerender(); return; }
+  }
+
+  /* Sleep as a list of stretches, because one number hides broken sleep. Each stretch is a
+     clock start/end (crossing midnight is fine) or, when the times are a blur, just hours. */
+  function sleepHtml(d) {
+    const sum = sleepSummary(d);
+    const rows = d.sleep.map((ep, i) => {
+      const h = sleepHours(ep);
+      return `
+        <div class="sleeprow">
+          <input type="time" data-sleep="${i}" data-sf="start" value="${esc(ep.start || "")}" title="fell asleep">
+          <span class="muted">to</span>
+          <input type="time" data-sleep="${i}" data-sf="end" value="${esc(ep.end || "")}" title="woke">
+          <span class="muted small">or</span>
+          <input type="number" min="0" max="24" step="0.25" style="width:70px" data-sleep="${i}" data-sf="hours" value="${esc(ep.start && ep.end ? "" : (ep.hours ?? ""))}" placeholder="hrs" title="hours, if you don't know the times">
+          <span class="sleephrs">${h ? h + " h" : ""}</span>
+          <button class="btn sm ghost" data-sleep-rm="${i}" title="remove this stretch">&times;</button>
+        </div>`;
+    }).join("");
+    const line = sum.count
+      ? `${sum.total} h total in ${sum.count} stretch${sum.count === 1 ? "" : "es"}${sum.count > 1 ? ` · longest ${sum.longest} h` : ""}`
+      : "nothing logged";
+    return `
+        <div class="rowitem sleepblock">
+          <div class="sleephead"><span>Sleep (each stretch, in the 24 h ending this day)</span><span class="muted small">${line}</span></div>
+          ${rows}
+          <button class="btn sm" data-sleep-add>+ add a stretch</button>
+        </div>`;
+  }
+
+  function onChange(e) {
+    const d = getDay(current);
+    if (e.target.matches("[data-acted]")) {
+      const u = e.target.dataset.acted;
+      d.urges[u] ||= { level: 0, acted: false };
+      d.urges[u].acted = e.target.checked;
+      save();
+    }
+    if (e.target.matches("[data-vuln]")) { d.vuln[e.target.dataset.vuln] = e.target.value; save(); }
+    if (e.target.matches("[data-sleep]")) {
+      const ep = d.sleep[Number(e.target.dataset.sleep)];
+      if (ep) { ep[e.target.dataset.sf] = e.target.value; sleepSummary(d); save(); rerender(); }
+    }
+  }
+  function onInput(e) {
+    if (e.target.matches("[data-note]")) { getDay(current).note = e.target.value; save(); }
+  }
+
+  function rerender() {
+    const root = document.getElementById("view");
+    root.removeEventListener("click", onClick);
+    root.removeEventListener("change", onChange);
+    root.removeEventListener("input", onInput);
+    root.removeEventListener("toggle", onToggle, true);
+    render(root);
+  }
+
+  function historyHtml() {
+    const days = [];
+    for (let i = 13; i >= 0; i--) days.push(shiftDay(dayKey(), -i));
+    const s = state.settings;
+    const rows = [];
+    const cell = (v, cls, extra = "") => {
+      const alpha = v == null ? 0 : 0.15 + (v / 5) * 0.85;
+      const col = cls === "urge" ? `rgba(214,60,143,${alpha})` : `rgba(155,92,255,${alpha})`;
+      return `<span class="heat" style="background:${v == null ? "rgba(255,255,255,.04)" : col};${extra}">${v ?? ""}</span>`;
+    };
+    rows.push(`<div class="heatrow"><span class="lbl"></span>${days.map((k) => `<span class="heat muted" style="cursor:pointer" data-day="${k}" title="${fmtDate(k)}">${k.slice(-2)}</span>`).join("")}</div>`);
+    for (const e of s.emotions) {
+      rows.push(`<div class="heatrow"><span class="lbl">${esc(e)}</span>${days.map((k) => cell(state.diary[k]?.emotions?.[e] ?? null, "emo")).join("")}</div>`);
+    }
+    for (const u of s.urges) {
+      rows.push(`<div class="heatrow"><span class="lbl" title="${esc(u)}">${esc(u.length > 16 ? u.slice(0, 15) + "…" : u)}</span>${days.map((k) => {
+        const r = state.diary[k]?.urges?.[u];
+        return cell(r ? r.level : null, "urge", r?.acted ? "outline:2px solid var(--pink)" : "");
+      }).join("")}</div>`);
+    }
+    const filled = days.filter((k) => dayHasContent(state.diary[k])).length;
+    rows.push(`<p class="small muted mt">${filled} of 14 days filled in. Purple = emotion strength, pink = urge strength, pink outline = acted on it. Click a day number to open it.</p>`);
+    return rows.join("");
+  }
+
+  function noteToast() { toast("Saved"); }
+  return { render, noteToast };
+})();
+
+/* ---- js/ui/drawer.js ---- */
+const __m_js_ui_drawer_js = (() => {
+  const { state, save, uid, fmtWhen } = __m_js_state_js;
+  const { HOLD_OPTIONS, FACT_PROMPTS } = __m_js_data_skills_js;
+  const { esc, toast, copyText, fmtCountdown, confirmBox } = __m_js_ui_dom_js;
+
+  let tick = null;
+  let holdMs = HOLD_OPTIONS[0].ms;
+
+  function render(root) {
+    root.innerHTML = `
+    <p class="help">Write the message here instead of in the phone. It locks for the time you pick. When it unlocks you see it again next to a few questions, and only then decide: send it as is, edit it, or let it go. Nothing here ever sends anything.</p>
+    <div class="grid two">
+      <section class="card accent-pink drawer-compose">
+        <h3>Put a message in the drawer</h3>
+        <label class="field"><span>To (a name or label, optional)</span><input type="text" id="dr-to" placeholder="who it is for"></label>
+        <label class="field"><span>The message, exactly as you want to send it right now</span><textarea id="dr-text" placeholder="Say everything. It is going in a drawer, not to them."></textarea></label>
+        <div class="field"><span class="small muted">Hold for</span>
+          <div class="holdopts">${HOLD_OPTIONS.map((o) => `<button class="chip pink ${o.ms === holdMs ? "on" : ""}" data-hold="${o.ms}">${o.label}</button>`).join("")}</div>
+        </div>
+        <button class="btn pink" id="dr-lock">Lock it in the drawer</button>
+      </section>
+      <section class="card accent-teal">
+        <h3>What the drawer has done</h3>
+        ${statsHtml()}
+        <p class="small muted mt">"Let go" and "edited" are the wins. Every one of those is a message the calm version of you would not have sent as written.</p>
+      </section>
+    </div>
+    <section class="mt">
+      <h3>In the drawer</h3>
+      <div class="list" id="dr-list">${listHtml()}</div>
+    </section>`;
+
+    root.addEventListener("click", onClick);
+    root.addEventListener("input", onInput);
+    clearInterval(tick);
+    tick = setInterval(() => {
+      const anyHeld = state.drawer.some((m) => m.status === "held");
+      if (!anyHeld) return;
+      const list = document.getElementById("dr-list");
+      if (!list) { clearInterval(tick); return; }
+      const now = Date.now();
+      let changed = false;
+      for (const m of state.drawer) if (m.status === "held" && m.unlockAt <= now) { m.status = "ready"; changed = true; }
+      if (changed) { save(); list.innerHTML = listHtml(); toast("A message is ready to look at"); return; }
+      list.querySelectorAll("[data-cd]").forEach((el) => { el.textContent = fmtCountdown(Number(el.dataset.cd) - now); });
+    }, 1000);
+  }
+
+  function unmount() { clearInterval(tick); }
+
+  function statsHtml() {
+    const c = { held: 0, ready: 0, sent: 0, edited: 0, deleted: 0 };
+    for (const m of state.drawer) c[m.status] = (c[m.status] || 0) + 1;
+    const resolved = c.sent + c.edited + c.deleted;
+    return `<div class="drawer-stats">
+      <div class="stat"><div class="n">${c.held + c.ready}</div><div class="l">waiting</div></div>
+      <div class="stat"><div class="n">${c.deleted}</div><div class="l">let go</div></div>
+      <div class="stat"><div class="n">${c.edited}</div><div class="l">edited first</div></div>
+      <div class="stat"><div class="n">${c.sent}</div><div class="l">sent as written</div></div>
+    </div>
+    ${resolved ? `<div class="bar mt"><i style="width:${Math.round(((c.deleted + c.edited) / resolved) * 100)}%"></i></div><div class="small muted">${Math.round(((c.deleted + c.edited) / resolved) * 100)}% of unlocked messages were changed or dropped</div>` : ""}`;
+  }
+
+  function listHtml() {
+    const items = [...state.drawer].sort((a, b) => b.createdAt - a.createdAt);
+    if (!items.length) return `<div class="empty">Empty. That is fine.</div>`;
+    const now = Date.now();
+    return items.map((m) => {
+      if (m.status === "held") {
+        return `<div class="item drawer-held" data-id="${m.id}">
+          <div class="head"><span><span class="pill pink">locked</span> ${m.to ? "to " + esc(m.to) : ""}</span>
+            <span class="countdown" data-cd="${m.unlockAt}">${fmtCountdown(m.unlockAt - now)}</span></div>
+          <pre class="quote msg">${esc(m.text)}</pre>
+          <div class="row between"><span class="when">put in ${fmtWhen(m.createdAt)} · opens ${fmtWhen(m.unlockAt)}</span>
+            <button class="btn sm ghost" data-act="drop">let it go now</button></div>
+        </div>`;
+      }
+      if (m.status === "ready") {
+        return `<div class="item drawer-ready" data-id="${m.id}">
+          <div class="head"><span><span class="pill teal">unlocked</span> ${m.to ? "to " + esc(m.to) : ""}</span><span class="when">written ${fmtWhen(m.createdAt)}</span></div>
+          <pre class="quote">${esc(m.text)}</pre>
+          <div class="facts">
+            ${FACT_PROMPTS.map((p) => `<label class="field"><span>${p.q}</span><textarea data-fact="${p.key}" rows="2">${esc(m.facts?.[p.key] || "")}</textarea></label>`).join("")}
+          </div>
+          <label class="field"><span>Rewrite (optional). If you change it here and copy, it counts as "edited".</span><textarea data-rewrite rows="3">${esc(m.rewrite || "")}</textarea></label>
+          <div class="row">
+            <button class="btn teal" data-act="copy-edit">Copy the rewrite</button>
+            <button class="btn" data-act="copy-orig">Copy the original</button>
+            <button class="btn primary" data-act="drop">Let it go</button>
+          </div>
+        </div>`;
+      }
+      const pill = { sent: "pill", edited: "pill teal", deleted: "pill purple" }[m.status];
+      const label = { sent: "sent as written", edited: "edited, then copied", deleted: "let go" }[m.status];
+      return `<details class="item" data-id="${m.id}"><summary><span class="${pill}">${label}</span> ${m.to ? "to " + esc(m.to) : ""} <span class="when">· ${fmtWhen(m.resolvedAt || m.createdAt)}</span></summary>
+        <pre class="quote">${esc(m.text)}</pre>${m.rewrite ? `<div class="small muted">Rewrite:</div><pre class="quote" style="border-color:var(--teal)">${esc(m.rewrite)}</pre>` : ""}
+        <button class="btn sm danger" data-act="forget">remove from history</button></details>`;
+    }).join("");
+  }
+
+  function onClick(e) {
+    const hold = e.target.closest("[data-hold]");
+    if (hold) { holdMs = Number(hold.dataset.hold); document.querySelectorAll("[data-hold]").forEach((b) => b.classList.toggle("on", Number(b.dataset.hold) === holdMs)); return; }
+    if (e.target.id === "dr-lock") {
+      const text = document.getElementById("dr-text").value.trim();
+      if (!text) { toast("Write the message first"); return; }
+      const now = Date.now();
+      state.drawer.push({ id: uid(), to: document.getElementById("dr-to").value.trim(), text, createdAt: now, unlockAt: now + holdMs, status: "held", facts: {}, rewrite: "" });
+      save();
+      document.getElementById("dr-text").value = ""; document.getElementById("dr-to").value = "";
+      document.getElementById("dr-list").innerHTML = listHtml();
+      toast("Locked. It will still be here.");
+      return;
+    }
+    const btn = e.target.closest("[data-act]");
+    if (!btn) return;
+    const item = btn.closest("[data-id]");
+    const m = state.drawer.find((x) => x.id === item.dataset.id);
+    if (!m) return;
+    const act = btn.dataset.act;
+    if (act === "drop") {
+      if (m.status === "held" && !confirmBox("Let this one go without reading it again?")) return;
+      captureFacts(item, m); m.status = "deleted"; m.resolvedAt = Date.now();
+    } else if (act === "copy-orig") {
+      captureFacts(item, m); copyText(m.text); m.status = "sent"; m.resolvedAt = Date.now();
+    } else if (act === "copy-edit") {
+      captureFacts(item, m);
+      if (!m.rewrite.trim()) { toast("Write the rewrite first, or copy the original"); return; }
+      copyText(m.rewrite); m.status = "edited"; m.resolvedAt = Date.now();
+    } else if (act === "forget") {
+      if (!confirmBox("Remove this from the drawer history?")) return;
+      state.drawer = state.drawer.filter((x) => x.id !== m.id);
+    }
+    save();
+    const root = document.getElementById("view");
+    root.removeEventListener("click", onClick);
+    root.removeEventListener("input", onInput);
+    render(root);
+  }
+
+  function onInput(e) {
+    const item = e.target.closest("[data-id]");
+    if (!item || !(e.target.matches("[data-fact]") || e.target.matches("[data-rewrite]"))) return;
+    const m = state.drawer.find((x) => x.id === item.dataset.id);
+    if (m) { captureFacts(item, m); save(); }
+  }
+
+  function captureFacts(item, m) {
+    m.facts = {};
+    item.querySelectorAll("[data-fact]").forEach((t) => { m.facts[t.dataset.fact] = t.value; });
+    const rw = item.querySelector("[data-rewrite]");
+    if (rw) m.rewrite = rw.value;
+  }
+  return { render, unmount };
+})();
+
+/* ---- js/ui/chain.js ---- */
+const __m_js_ui_chain_js = (() => {
+  const { state, save, uid, dayKey, fmtDate } = __m_js_state_js;
+  const { LINK_KINDS } = __m_js_data_skills_js;
+  const { esc, toast, confirmBox } = __m_js_ui_dom_js;
+  const { refresh } = __m_js_router_js;
+
+  let draft = null;
+
+  function render(root) {
+    root.innerHTML = `
+    <p class="help">Chain analysis: after something blew up, walk it backward. Trigger, what made you vulnerable, then each link in order (a thought, a feeling, a body sensation, an action, something that happened), then what it cost, then where a skill could have gone in. It is a map, not a verdict.</p>
+    <div class="grid two">
+      <section class="card accent-purple">
+        <h3>${draft ? "Editing" : "New chain"}</h3>
+        ${formHtml(draft || newDraft())}
+      </section>
+      <section>
+        <h3>Past chains</h3>
+        <div class="list">${state.chains.length ? [...state.chains].sort((a, b) => b.date.localeCompare(a.date)).map(viewHtml).join("") : '<div class="empty">None yet.</div>'}</div>
+      </section>
+    </div>`;
+    root.addEventListener("click", onClick);
+    root.addEventListener("input", onInput);
+  }
+
+  function newDraft() {
+    draft = { id: uid(), date: dayKey(), behavior: "", prompt: "", vuln: "", links: [{ kind: "thought", text: "" }], consequences: "", skillPoint: "", repair: "" };
+    return draft;
+  }
+
+  function formHtml(c) {
+    return `
+    <label class="field"><span>Date</span><input type="date" data-f="date" value="${c.date}"></label>
+    <label class="field"><span>The behaviour (what you did that you want to understand)</span><textarea data-f="behavior" rows="2">${esc(c.behavior)}</textarea></label>
+    <label class="field"><span>Prompting event (what set it off, just the facts)</span><textarea data-f="prompt" rows="2">${esc(c.prompt)}</textarea></label>
+    <label class="field"><span>Vulnerabilities (sleep, hunger, pain, earlier conflict, substances)</span><textarea data-f="vuln" rows="2">${esc(c.vuln)}</textarea></label>
+    <div class="field"><span class="small muted">Links, in order</span>
+      <div class="links">${c.links.map((l, i) => `
+        <div class="link" data-i="${i}">
+          <select data-lk="${i}">${LINK_KINDS.map((k) => `<option ${l.kind === k ? "selected" : ""}>${k}</option>`).join("")}</select>
+          <input type="text" data-lt="${i}" value="${esc(l.text)}" placeholder="then…">
+          <button class="btn sm ghost" data-rm="${i}" title="remove">×</button>
+        </div>`).join("")}</div>
+      <button class="btn sm" data-addlink>+ add link</button>
+    </div>
+    <label class="field"><span>Consequences (for you, for others, short and long term)</span><textarea data-f="consequences" rows="2">${esc(c.consequences)}</textarea></label>
+    <label class="field"><span>Where could a skill have gone in, and which one?</span><textarea data-f="skillPoint" rows="2">${esc(c.skillPoint)}</textarea></label>
+    <label class="field"><span>Repair (what, if anything, you will do about the damage)</span><textarea data-f="repair" rows="2">${esc(c.repair)}</textarea></label>
+    <div class="row"><button class="btn primary" data-save>Save chain</button>${draft && state.chains.some((x) => x.id === draft.id) ? '<button class="btn ghost" data-cancel>Cancel</button>' : ""}</div>`;
+  }
+
+  function viewHtml(c) {
+    const step = (l, v) => v ? `<div class="step"><b>${l}</b><span>${esc(v)}</span></div>` : "";
+    return `<details class="item chainview" data-id="${c.id}">
+      <summary>${fmtDate(c.date)} · ${esc(c.behavior || "(no behaviour written)").slice(0, 80)}</summary>
+      ${step("Prompting event", c.prompt)}${step("Vulnerabilities", c.vuln)}
+      ${c.links.filter((l) => l.text).map((l) => `<div class="step"><b class="pill purple" style="justify-self:start">${l.kind}</b><span>${esc(l.text)}</span></div>`).join("")}
+      ${step("Behaviour", c.behavior)}${step("Consequences", c.consequences)}${step("Skill point", c.skillPoint)}${step("Repair", c.repair)}
+      <div class="row mt"><button class="btn sm" data-edit>Edit</button><button class="btn sm danger" data-del>Delete</button></div>
+    </details>`;
+  }
+
+  function onInput(e) {
+    const c = draft || newDraft();
+    if (e.target.matches("[data-f]")) c[e.target.dataset.f] = e.target.value;
+    if (e.target.matches("[data-lt]")) c.links[Number(e.target.dataset.lt)].text = e.target.value;
+    if (e.target.matches("[data-lk]")) c.links[Number(e.target.dataset.lk)].kind = e.target.value;
+  }
+
+  function onClick(e) {
+    const c = draft || newDraft();
+    if (e.target.closest("[data-addlink]")) { c.links.push({ kind: "thought", text: "" }); refresh(); return; }
+    const rm = e.target.closest("[data-rm]");
+    if (rm) { c.links.splice(Number(rm.dataset.rm), 1); if (!c.links.length) c.links.push({ kind: "thought", text: "" }); refresh(); return; }
+    if (e.target.closest("[data-save]")) {
+      if (!c.behavior.trim() && !c.prompt.trim()) { toast("Write at least the behaviour or the trigger"); return; }
+      const i = state.chains.findIndex((x) => x.id === c.id);
+      if (i >= 0) state.chains[i] = c; else state.chains.push(c);
+      draft = null; save(); toast("Saved"); refresh(); return;
+    }
+    if (e.target.closest("[data-cancel]")) { draft = null; refresh(); return; }
+    const item = e.target.closest("[data-id]");
+    if (!item) return;
+    if (e.target.closest("[data-edit]")) { draft = structuredClone(state.chains.find((x) => x.id === item.dataset.id)); refresh(); }
+    if (e.target.closest("[data-del]") && confirmBox("Delete this chain?")) { state.chains = state.chains.filter((x) => x.id !== item.dataset.id); save(); refresh(); }
+  }
+  return { render };
+})();
+
+/* ---- js/ui/people.js ---- */
+const __m_js_ui_people_js = (() => {
+  const { state, save, uid, dayKey, fmtDate } = __m_js_state_js;
+  const { esc, toast, confirmBox } = __m_js_ui_dom_js;
+  const { refresh } = __m_js_router_js;
+
+  let selected = null;
+
+  function render(root) {
+    const people = state.people;
+    if (selected && !people.some((p) => p.id === selected)) selected = null;
+    if (!selected && people.length) selected = people[0].id;
+    const p = people.find((x) => x.id === selected);
+
+    root.innerHTML = `
+    <p class="help">One card per person. Write down concrete things they did, both kinds, while you are calm. When your mind flips someone to all-bad or all-good, open their card and read the whole record. Below that, log the abandonment predictions and later fill in what actually happened.</p>
+    <div class="people-nav">
+      ${people.map((x) => `<button class="chip purple ${x.id === selected ? "on" : ""}" data-sel="${x.id}">${esc(x.name)}</button>`).join("")}
+      <span class="row"><input type="text" id="pp-new" placeholder="add a person" style="width:160px"><button class="btn sm" id="pp-add">Add</button></span>
+    </div>
+    ${p ? personHtml(p) : '<div class="empty">Add a person to start a card.</div>'}`;
+    root.addEventListener("click", onClick);
+    root.addEventListener("keydown", (e) => { if (e.key === "Enter" && e.target.id === "pp-new") addPerson(); });
+  }
+
+  function personHtml(p) {
+    p.entries ||= []; p.predictions ||= [];
+    const kind = p.entries.filter((e) => e.kind === "kind"), hurt = p.entries.filter((e) => e.kind === "hurt"), neutral = p.entries.filter((e) => e.kind === "neutral");
+    const entry = (e) => `<div class="entry" data-eid="${e.id}"><div class="d">${fmtDate(e.date)} <button class="btn sm ghost" data-rme title="remove" style="padding:0 .3rem">×</button></div>${esc(e.text)}</div>`;
+    const scored = p.predictions.filter((x) => x.outcome);
+    const hits = scored.filter((x) => x.outcome === "hit").length;
+    return `
+    <div class="row between mb"><h2>${esc(p.name)}</h2><button class="btn sm danger" data-delperson>Remove card</button></div>
+    <section class="card accent-purple mb">
+      <h3>Add to the record</h3>
+      <div class="row">
+        <input type="date" data-e="date" value="${dayKey()}" style="width:160px">
+        <select data-e="kind" style="width:150px"><option value="kind">they did right</option><option value="hurt">they hurt me</option><option value="neutral">neutral fact</option></select>
+        <input type="text" data-e="text" class="grow" placeholder="what happened, concretely">
+        <button class="btn primary" data-adde>Add</button>
+      </div>
+    </section>
+    <div class="person-cols">
+      <section class="card col-kind"><h3>Things they did right (${kind.length})</h3>${kind.length ? kind.map(entry).join("") : '<div class="empty">nothing recorded</div>'}</section>
+      <section class="card col-hurt"><h3>Things that hurt (${hurt.length})</h3>${hurt.length ? hurt.map(entry).join("") : '<div class="empty">nothing recorded</div>'}</section>
+    </div>
+    ${neutral.length ? `<section class="card mt"><h3>Neutral facts</h3>${neutral.map(entry).join("")}</section>` : ""}
+
+    <section class="card accent-teal mt">
+      <h3>Abandonment predictions</h3>
+      <p class="small muted">When the fear says "they are leaving", write the prediction down with what set it off. Later, come back and write what actually happened. The hit rate is the point.</p>
+      <div class="row between">
+        <div class="row"><span class="hitrate">${scored.length ? Math.round((hits / scored.length) * 100) + "%" : "–"}</span><span class="small muted">of ${scored.length} checked predictions came true</span></div>
+      </div>
+      <div class="row mt">
+        <input type="date" data-p="date" value="${dayKey()}" style="width:160px">
+        <input type="text" data-p="event" placeholder="what set it off" class="grow">
+        <input type="text" data-p="prediction" placeholder="what I am predicting will happen" class="grow">
+        <button class="btn teal" data-addp>Log</button>
+      </div>
+      <div class="list mt">
+        ${[...p.predictions].reverse().map((x) => `<div class="item" data-pid="${x.id}">
+          <div class="head"><span>${fmtDate(x.date)} · <span class="muted">${esc(x.event)}</span></span>
+            ${x.outcome ? `<span class="pill ${x.outcome === "hit" ? "danger" : "ok"}">${x.outcome === "hit" ? "came true" : "did not happen"}</span>` : '<span class="pill">open</span>'}</div>
+          <div><b>Predicted:</b> ${esc(x.prediction)}</div>
+          ${x.outcome ? `<div><b>Actually:</b> ${esc(x.actual)}</div>` : `<div class="row mt"><input type="text" data-actual placeholder="what actually happened" class="grow"><button class="btn sm" data-out="miss">did not happen</button><button class="btn sm pink" data-out="hit">came true</button></div>`}
+          <div class="right"><button class="btn sm ghost" data-rmp>remove</button></div>
+        </div>`).join("")}
+      </div>
+    </section>`;
+  }
+
+  function addPerson() {
+    const inp = document.getElementById("pp-new");
+    const name = inp.value.trim();
+    if (!name) return;
+    const p = { id: uid(), name, entries: [], predictions: [] };
+    state.people.push(p); selected = p.id; save(); refresh();
+  }
+
+  function onClick(e) {
+    if (e.target.id === "pp-add") { addPerson(); return; }
+    const sel = e.target.closest("[data-sel]");
+    if (sel) { selected = sel.dataset.sel; refresh(); return; }
+    const p = state.people.find((x) => x.id === selected);
+    if (!p) return;
+    if (e.target.closest("[data-delperson]")) {
+      if (!confirmBox(`Remove ${p.name}'s card and everything on it?`)) return;
+      state.people = state.people.filter((x) => x.id !== p.id); selected = null; save(); refresh(); return;
+    }
+    if (e.target.closest("[data-adde]")) {
+      const g = (k) => document.querySelector(`[data-e="${k}"]`).value;
+      if (!g("text").trim()) { toast("Write what happened"); return; }
+      p.entries.push({ id: uid(), date: g("date") || dayKey(), kind: g("kind"), text: g("text").trim() });
+      save(); refresh(); return;
+    }
+    const ent = e.target.closest("[data-eid]");
+    if (ent && e.target.closest("[data-rme]")) { p.entries = p.entries.filter((x) => x.id !== ent.dataset.eid); save(); refresh(); return; }
+    if (e.target.closest("[data-addp]")) {
+      const g = (k) => document.querySelector(`[data-p="${k}"]`).value;
+      if (!g("prediction").trim()) { toast("Write the prediction"); return; }
+      p.predictions.push({ id: uid(), date: g("date") || dayKey(), event: g("event").trim(), prediction: g("prediction").trim(), actual: "", outcome: null });
+      save(); refresh(); return;
+    }
+    const pr = e.target.closest("[data-pid]");
+    if (!pr) return;
+    const x = p.predictions.find((y) => y.id === pr.dataset.pid);
+    const out = e.target.closest("[data-out]");
+    if (out) { x.outcome = out.dataset.out; x.actual = pr.querySelector("[data-actual]").value.trim(); save(); refresh(); return; }
+    if (e.target.closest("[data-rmp]")) { p.predictions = p.predictions.filter((y) => y.id !== x.id); save(); refresh(); }
+  }
+  return { render };
+})();
+
+/* ---- js/ui/coach.js ---- */
+const __m_js_ui_coach_js = (() => {
+  const { state, save, uid, dayKey, fmtDate } = __m_js_state_js;
+  const { EMOTION_GUIDE, DEAR_MAN, GIVE_FAST } = __m_js_data_skills_js;
+  const { esc, toast, copyText, scaleHtml, confirmBox } = __m_js_ui_dom_js;
+  const { refresh } = __m_js_router_js;
+
+  let mode = "emotion"; // or "script"
+  let ck = { emotion: "", intensity: null, event: "", fits: null, plan: "" };
+  let sc = { to: "", describe: "", express: "", assert: "", reinforce: "", mindful: "", appear: "", negotiate: "" };
+
+  function render(root) {
+    root.innerHTML = `
+    <div class="row mb">
+      <button class="chip purple ${mode === "emotion" ? "on" : ""}" data-mode="emotion">Emotion check-in</button>
+      <button class="chip purple ${mode === "script" ? "on" : ""}" data-mode="script">Script a hard conversation</button>
+    </div>
+    ${mode === "emotion" ? emotionHtml() : scriptHtml()}`;
+    root.addEventListener("click", onClick);
+    root.addEventListener("input", onInput);
+  }
+
+  function emotionHtml() {
+    const g = EMOTION_GUIDE[ck.emotion];
+    return `
+    <p class="help">Name it, rate it, check whether it fits the facts. If it does not fit, or acting on it will not help, do the opposite of what it is pushing you to do. If it does fit, act on the facts, not the feeling.</p>
+    <div class="grid two">
+      <section class="card accent-purple">
+        <h3>1. What is it?</h3>
+        <div class="chips mb">${Object.keys(EMOTION_GUIDE).map((e) => `<button class="chip purple ${ck.emotion === e ? "on" : ""}" data-emo="${e}">${e}</button>`).join("")}</div>
+        <div class="rowitem"><span>How strong (0 to 10)</span>${scaleHtml("emotion", "intensity", ck.intensity, 10)}</div>
+        <label class="field mt"><span>What happened (facts only)</span><textarea data-ck="event" rows="3">${esc(ck.event)}</textarea></label>
+      </section>
+      <section class="card accent-teal">
+        <h3>2. Does it fit the facts?</h3>
+        ${g ? `<p class="big">${g.fits}</p>
+        <div class="row mb">
+          <button class="chip ${ck.fits === true ? "on" : ""}" data-fits="1">Yes, it fits</button>
+          <button class="chip pink ${ck.fits === false ? "on" : ""}" data-fits="0">No, or acting on it will not help</button>
+        </div>
+        ${ck.fits === false ? `<h3>Opposite action for ${ck.emotion.toLowerCase()}</h3>${g.opposite.map((o) => `<div class="oa">${o}</div>`).join("")}` : ""}
+        ${ck.fits === true ? `<h3>Act on the facts</h3><div class="oa fit">${g.justified}</div>` : ""}
+        ${ck.fits !== null ? `<label class="field mt"><span>What I will actually do in the next hour</span><textarea data-ck="plan" rows="2">${esc(ck.plan)}</textarea></label>
+        <button class="btn primary" data-savecheck>Save check-in</button>` : ""}` : '<div class="empty">Pick an emotion first.</div>'}
+      </section>
+    </div>
+    <section class="mt"><h3>Past check-ins</h3>
+      <div class="list">${state.coach.length ? [...state.coach].reverse().slice(0, 30).map((c) => `<div class="item" data-cid="${c.id}"><div class="head"><span><span class="pill purple">${esc(c.emotion)} ${c.intensity ?? ""}</span> <span class="pill ${c.fits ? "teal" : "pink"}">${c.fits ? "fit the facts" : "opposite action"}</span></span><span class="when">${fmtDate(c.date)}</span></div>
+        ${c.event ? `<div class="small muted">${esc(c.event)}</div>` : ""}${c.plan ? `<div><b>Did:</b> ${esc(c.plan)}</div>` : ""}<div class="right"><button class="btn sm ghost" data-rmc>remove</button></div></div>`).join("") : '<div class="empty">None yet.</div>'}</div>
+    </section>`;
+  }
+
+  function scriptHtml() {
+    return `
+    <p class="help">DEAR MAN is the DBT script for asking for something or saying no. Fill the parts, read the result out loud twice, then use it. The GIVE and FAST reminders are about how to say it and how to keep your self-respect while you do.</p>
+    <div class="grid two">
+      <section class="card accent-pink">
+        <label class="field"><span>Who this is for</span><input type="text" data-sc="to" value="${esc(sc.to)}"></label>
+        ${DEAR_MAN.map((d) => `<label class="field"><span><b>${d.label}</b> · ${d.hint}</span><textarea data-sc="${d.key}" rows="2">${esc(sc[d.key])}</textarea></label>`).join("")}
+      </section>
+      <section>
+        <div class="card accent-teal mb"><h3>Your script</h3><div class="script-out" id="script-out">${esc(buildScript())}</div>
+          <div class="row mt"><button class="btn teal" data-copyscript>Copy</button><button class="btn primary" data-savescript>Save</button></div></div>
+        <div class="card"><h3>GIVE (keep the relationship)</h3><ul class="small">${GIVE_FAST.GIVE.map((x) => `<li>${x}</li>`).join("")}</ul>
+          <h3 class="mt">FAST (keep your self-respect)</h3><ul class="small">${GIVE_FAST.FAST.map((x) => `<li>${x}</li>`).join("")}</ul></div>
+        ${state.scripts.length ? `<h3 class="mt">Saved scripts</h3><div class="list">${[...state.scripts].reverse().map((s) => `<details class="item" data-sid="${s.id}"><summary>${fmtDate(s.date)} · ${esc(s.to || "(no name)")}</summary><pre class="quote">${esc(s.text)}</pre><div class="row"><button class="btn sm" data-loadscript>Load</button><button class="btn sm danger" data-rms>Delete</button></div></details>`).join("")}</div>` : ""}
+      </section>
+    </div>`;
+  }
+
+  function buildScript() {
+    const parts = [];
+    if (sc.describe) parts.push(sc.describe);
+    if (sc.express) parts.push(sc.express);
+    if (sc.assert) parts.push(sc.assert);
+    if (sc.reinforce) parts.push(sc.reinforce);
+    if (sc.negotiate) parts.push("If that does not work for you: " + sc.negotiate);
+    if (sc.mindful) parts.push("\n(If it goes sideways, repeat: \"" + sc.mindful + "\")");
+    if (sc.appear) parts.push("(Remember: " + sc.appear + ")");
+    return parts.join("\n\n");
+  }
+
+  function onInput(e) {
+    if (e.target.matches("[data-ck]")) ck[e.target.dataset.ck] = e.target.value;
+    if (e.target.matches("[data-sc]")) { sc[e.target.dataset.sc] = e.target.value; document.getElementById("script-out").textContent = buildScript(); }
+  }
+
+  function onClick(e) {
+    const m = e.target.closest("[data-mode]");
+    if (m) { mode = m.dataset.mode; refresh(); return; }
+    const emo = e.target.closest("[data-emo]");
+    if (emo) { ck.emotion = emo.dataset.emo; ck.fits = null; refresh(); return; }
+    const sb = e.target.closest(".scale button");
+    if (sb) { ck.intensity = Number(sb.dataset.v); refresh(); return; }
+    const f = e.target.closest("[data-fits]");
+    if (f) { ck.fits = f.dataset.fits === "1"; refresh(); return; }
+    if (e.target.closest("[data-savecheck]")) {
+      state.coach.push({ id: uid(), date: dayKey(), ...ck });
+      ck = { emotion: "", intensity: null, event: "", fits: null, plan: "" };
+      save(); toast("Saved"); refresh(); return;
+    }
+    const c = e.target.closest("[data-cid]");
+    if (c && e.target.closest("[data-rmc]")) { state.coach = state.coach.filter((x) => x.id !== c.dataset.cid); save(); refresh(); return; }
+    if (e.target.closest("[data-copyscript]")) { copyText(buildScript()); return; }
+    if (e.target.closest("[data-savescript]")) {
+      const text = buildScript(); if (!text.trim()) { toast("Fill in at least one part"); return; }
+      state.scripts.push({ id: uid(), date: dayKey(), to: sc.to, fields: { ...sc }, text });
+      save(); toast("Saved"); refresh(); return;
+    }
+    const s = e.target.closest("[data-sid]");
+    if (!s) return;
+    const rec = state.scripts.find((x) => x.id === s.dataset.sid);
+    if (e.target.closest("[data-loadscript]")) { sc = { ...sc, ...rec.fields }; refresh(); }
+    if (e.target.closest("[data-rms]") && confirmBox("Delete this script?")) { state.scripts = state.scripts.filter((x) => x.id !== rec.id); save(); refresh(); }
+  }
+  return { render };
+})();
+
+/* ---- js/ui/suspicion.js ---- */
+const __m_js_ui_suspicion_js = (() => {
+  const { state, save, uid, dayKey, fmtDate } = __m_js_state_js;
+  const { esc, toast, confirmBox } = __m_js_ui_dom_js;
+  const { refresh } = __m_js_router_js;
+
+  // Suspicion check: log a suspicious belief with a confidence, evidence for and
+  // against, and an alternative explanation; close it out later with what turned
+  // out to be true. Calibration = how often "X% sure" beliefs actually came true.
+
+  let draft = null;
+
+  function newDraft() {
+    draft = { id: uid(), date: dayKey(), belief: "", sure: 70, about: "", evFor: "", evAgainst: "", alt: "", trigger: "", outcome: null, actual: "", closedAt: null };
+    return draft;
+  }
+
+  function render(root) {
+    state.suspicions ||= [];
+    const d = draft || newDraft();
+    const items = [...state.suspicions].sort((a, b) => b.date.localeCompare(a.date));
+    root.innerHTML = `
+    <p class="help">When you are sure someone is lying, plotting, laughing at you, or about to turn on you: write the belief down with how sure you are, then the evidence on both sides. Come back later and mark what actually happened. Over time the numbers show whether "90% sure" means 90% or 20%.</p>
+    <div class="grid two">
+      <section class="card accent-pink">
+        <h3>Suspicion check</h3>
+        <label class="field"><span>The belief, as plainly as possible</span><textarea data-f="belief" rows="2" placeholder="e.g. They are talking about me behind my back.">${esc(d.belief)}</textarea></label>
+        <div class="row">
+          <label class="field grow"><span>Who or what it is about</span><input type="text" data-f="about" value="${esc(d.about)}"></label>
+          <label class="field" style="width:130px"><span>Date</span><input type="date" data-f="date" value="${d.date}"></label>
+        </div>
+        <label class="field"><span>How sure are you right now? <b class="countdown" id="sus-sure">${d.sure}%</b></span><input type="range" min="0" max="100" step="5" data-f="sure" value="${d.sure}" style="width:100%"></label>
+        <label class="field"><span>What set it off (sleep, a look, a delay in replying, a tone)</span><input type="text" data-f="trigger" value="${esc(d.trigger)}"></label>
+        <label class="field"><span>Evidence FOR it (only things a camera would have recorded)</span><textarea data-f="evFor" rows="2">${esc(d.evFor)}</textarea></label>
+        <label class="field"><span>Evidence AGAINST it</span><textarea data-f="evAgainst" rows="2">${esc(d.evAgainst)}</textarea></label>
+        <label class="field"><span>One other explanation that is at least possible</span><textarea data-f="alt" rows="2">${esc(d.alt)}</textarea></label>
+        <div class="row"><button class="btn primary" data-save>Save it and wait</button>${state.suspicions.some((x) => x.id === d.id) ? '<button class="btn ghost" data-cancel>Cancel</button>' : ""}</div>
+      </section>
+      <section>
+        <div class="card accent-teal mb"><h3>Calibration</h3>${calibrationHtml()}</div>
+        <h3>Checks</h3>
+        <div class="list">${items.length ? items.map(itemHtml).join("") : '<div class="empty">None yet.</div>'}</div>
+      </section>
+    </div>`;
+    root.addEventListener("input", onInput);
+    root.addEventListener("click", onClick);
+  }
+
+  function calibrationHtml() {
+    const closed = state.suspicions.filter((x) => x.outcome);
+    if (!closed.length) return '<div class="empty">Close out a few checks and this fills in.</div>';
+    const bands = [[0, 40, "0-40% sure"], [41, 70, "41-70% sure"], [71, 100, "71-100% sure"]];
+    const rows = bands.map(([lo, hi, label]) => {
+      const b = closed.filter((x) => x.sure >= lo && x.sure <= hi);
+      if (!b.length) return "";
+      const hit = b.filter((x) => x.outcome === "true").length;
+      const part = b.filter((x) => x.outcome === "partly").length;
+      return `<div class="rowitem"><span>${label} <span class="muted small">(${b.length})</span></span><span><span class="pill danger">${hit} true</span> <span class="pill">${part} partly</span> <span class="pill ok">${b.length - hit - part} not true</span></span></div>`;
+    }).join("");
+    const overall = Math.round((closed.filter((x) => x.outcome === "true").length / closed.length) * 100);
+    const avgSure = Math.round(closed.reduce((a, x) => a + x.sure, 0) / closed.length);
+    return `<div class="row"><span class="hitrate">${overall}%</span><span class="small muted">of ${closed.length} closed beliefs turned out fully true. Average certainty at the time: ${avgSure}%.</span></div>${rows}`;
+  }
+
+  function itemHtml(x) {
+    const pill = x.outcome ? { true: '<span class="pill danger">was true</span>', partly: '<span class="pill">partly true</span>', false: '<span class="pill ok">not true</span>' }[x.outcome] : '<span class="pill pink">open</span>';
+    return `<details class="item" data-id="${x.id}">
+      <summary>${pill} ${fmtDate(x.date)} · ${esc(x.belief).slice(0, 70)} <span class="muted small">(${x.sure}% sure)</span></summary>
+      ${x.about ? `<div><b>About:</b> ${esc(x.about)}</div>` : ""}${x.trigger ? `<div><b>Trigger:</b> ${esc(x.trigger)}</div>` : ""}
+      ${x.evFor ? `<div><b>For:</b> ${esc(x.evFor)}</div>` : ""}${x.evAgainst ? `<div><b>Against:</b> ${esc(x.evAgainst)}</div>` : ""}${x.alt ? `<div><b>Other explanation:</b> ${esc(x.alt)}</div>` : ""}
+      ${x.outcome ? `<div class="mt"><b>What actually happened:</b> ${esc(x.actual) || "(not written)"}</div>` :
+        `<div class="row mt"><input type="text" data-actual placeholder="what actually happened" class="grow"><button class="btn sm teal" data-out="false">not true</button><button class="btn sm" data-out="partly">partly</button><button class="btn sm pink" data-out="true">it was true</button></div>`}
+      <div class="row mt"><button class="btn sm" data-edit>Edit</button><button class="btn sm danger" data-del>Delete</button></div>
+    </details>`;
+  }
+
+  function onInput(e) {
+    const d = draft || newDraft();
+    if (!e.target.matches("[data-f]")) return;
+    const k = e.target.dataset.f;
+    d[k] = k === "sure" ? Number(e.target.value) : e.target.value;
+    if (k === "sure") document.getElementById("sus-sure").textContent = d.sure + "%";
+  }
+
+  function onClick(e) {
+    const d = draft || newDraft();
+    if (e.target.closest("[data-save]")) {
+      if (!d.belief.trim()) { toast("Write the belief first"); return; }
+      const i = state.suspicions.findIndex((x) => x.id === d.id);
+      if (i >= 0) state.suspicions[i] = d; else state.suspicions.push(d);
+      draft = null; save(); toast("Saved. Come back when you know more."); refresh(); return;
+    }
+    if (e.target.closest("[data-cancel]")) { draft = null; refresh(); return; }
+    const item = e.target.closest("[data-id]");
+    if (!item) return;
+    const x = state.suspicions.find((y) => y.id === item.dataset.id);
+    const out = e.target.closest("[data-out]");
+    if (out) { x.outcome = out.dataset.out; x.actual = item.querySelector("[data-actual]").value.trim(); x.closedAt = Date.now(); save(); refresh(); return; }
+    if (e.target.closest("[data-edit]")) { draft = structuredClone(x); refresh(); return; }
+    if (e.target.closest("[data-del]") && confirmBox("Delete this check?")) { state.suspicions = state.suspicions.filter((y) => y.id !== x.id); save(); refresh(); }
+  }
+  return { render };
+})();
+
+/* ---- js/ui/review.js ---- */
+const __m_js_ui_review_js = (() => {
+  const { state, dayKey, shiftDay, fmtDate, dayHasContent, sleepHours } = __m_js_state_js;
+  const { esc, copyText, download } = __m_js_ui_dom_js;
+
+  let days = 7;
+
+  function render(root) {
+    const text = summary(days);
+    root.innerHTML = `
+    <p class="help">A plain-text summary of the last week or month: averages, urges acted on, drawer results, chains, crisis-mode uses. Copy it for a therapist or just read it yourself. Nothing leaves this PC unless you copy it out.</p>
+    <div class="row mb">
+      <button class="chip purple ${days === 7 ? "on" : ""}" data-days="7">Last 7 days</button>
+      <button class="chip purple ${days === 30 ? "on" : ""}" data-days="30">Last 30 days</button>
+      <span class="grow"></span>
+      <button class="btn teal" data-copy>Copy</button>
+      <button class="btn" data-dl>Download .txt</button>
+    </div>
+    <section class="card review"><pre id="rv-text">${esc(text)}</pre></section>`;
+    root.addEventListener("click", (e) => {
+      const d = e.target.closest("[data-days]");
+      if (d) { days = Number(d.dataset.days); render(root); return; }
+      if (e.target.closest("[data-copy]")) copyText(text);
+      if (e.target.closest("[data-dl]")) download(`ballast-summary-${dayKey()}.txt`, text);
+    });
+  }
+
+  function summary(n) {
+    const keys = []; for (let i = n - 1; i >= 0; i--) keys.push(shiftDay(dayKey(), -i));
+    const s = state.settings;
+    const L = [];
+    L.push(`Ballast summary: ${fmtDate(keys[0])} to ${fmtDate(keys[keys.length - 1])} (${n} days)`);
+    L.push("");
+    const filled = keys.filter((k) => dayHasContent(state.diary[k]));
+    L.push(`Diary cards filled: ${filled.length} of ${n}`);
+    L.push("");
+    L.push("Emotions (average of rated days / peak / days at 4+):");
+    for (const e of s.emotions) {
+      const vals = keys.map((k) => state.diary[k]?.emotions?.[e]).filter((v) => v != null);
+      if (!vals.length) { L.push(`  ${e}: no ratings`); continue; }
+      const avg = (vals.reduce((a, b) => a + b, 0) / vals.length).toFixed(1);
+      L.push(`  ${e}: avg ${avg}, peak ${Math.max(...vals)}, high days ${vals.filter((v) => v >= 4).length}`);
+    }
+    L.push("");
+    L.push("Urges (days present / days acted on):");
+    for (const u of s.urges) {
+      const recs = keys.map((k) => state.diary[k]?.urges?.[u]).filter(Boolean);
+      const present = recs.filter((r) => r.level > 0).length, acted = recs.filter((r) => r.acted).length;
+      if (!recs.length) continue;
+      L.push(`  ${u}: ${present} / ${acted}`);
+    }
+    L.push("");
+    const sleep = keys.map((k) => Number(state.diary[k]?.vuln?.sleep)).filter((v) => v > 0);
+    if (sleep.length) L.push(`Sleep: avg ${(sleep.reduce((a, b) => a + b, 0) / sleep.length).toFixed(1)} h over ${sleep.length} days, min ${Math.min(...sleep)}`);
+    const stretches = keys.map((k) => (state.diary[k]?.sleep || []).length).filter((n) => n > 0);
+    if (stretches.length) {
+      const broken = stretches.filter((n) => n > 1).length;
+      const longest = keys.map((k) => Math.max(0, ...(state.diary[k]?.sleep || []).map(sleepHours))).filter((h) => h > 0);
+      L.push(`  broken sleep (2+ stretches) on ${broken} of ${stretches.length} days; avg stretches/day ${(stretches.reduce((a, b) => a + b, 0) / stretches.length).toFixed(1)}` +
+        (longest.length ? `; longest single stretch avg ${(longest.reduce((a, b) => a + b, 0) / longest.length).toFixed(1)} h` : ""));
+    }
+    const cnt = (k) => keys.filter((d) => state.diary[d]?.vuln?.[k] === true).length;
+    L.push(`Days with: conflict ${cnt("conflict")}, pain/illness ${cnt("pain")}, alcohol/drugs ${cnt("substances")}, regular meals ${cnt("ate")}`);
+    L.push("");
+    const skillCount = {};
+    for (const k of keys) for (const sk of state.diary[k]?.skills || []) skillCount[sk] = (skillCount[sk] || 0) + 1;
+    const top = Object.entries(skillCount).sort((a, b) => b[1] - a[1]);
+    L.push(top.length ? "Skills used: " + top.map(([k, v]) => `${k} (${v})`).join(", ") : "Skills used: none logged");
+    L.push("");
+    const since = Date.now() - n * 864e5;
+    const dr = state.drawer.filter((m) => m.createdAt >= since);
+    const c = { sent: 0, edited: 0, deleted: 0, held: 0, ready: 0 };
+    for (const m of dr) c[m.status]++;
+    L.push(`Drawer: ${dr.length} messages held. Let go ${c.deleted}, edited ${c.edited}, sent as written ${c.sent}, still waiting ${c.held + c.ready}.`);
+    const chains = state.chains.filter((x) => keys.includes(x.date));
+    L.push(`Chain analyses: ${chains.length}` + (chains.length ? " -> " + chains.map((x) => `${fmtDate(x.date)}: ${x.behavior || x.prompt}`.slice(0, 70)).join("; ") : ""));
+    const cr = state.crises.filter((x) => x.at >= since);
+    if (cr.length) {
+      const rated = cr.filter((x) => x.before != null && x.after != null);
+      const drop = rated.length ? (rated.reduce((a, x) => a + (x.before - x.after), 0) / rated.length).toFixed(1) : "n/a";
+      L.push(`Crisis mode used ${cr.length} times; average distress drop ${drop} points (0-10 scale).`);
+    } else L.push("Crisis mode: not used.");
+    const checks = state.coach.filter((x) => keys.includes(x.date));
+    if (checks.length) L.push(`Emotion check-ins: ${checks.length} (${checks.filter((x) => !x.fits).length} opposite action, ${checks.filter((x) => x.fits).length} fit the facts).`);
+    const sus = (state.suspicions || []).filter((x) => keys.includes(x.date));
+    if (sus.length) { const closed = sus.filter((x) => x.outcome); L.push(`Suspicion checks: ${sus.length} logged, ${closed.length} closed, ${closed.filter((x) => x.outcome === "true").length} turned out true.`); }
+    const preds = state.people.flatMap((p) => p.predictions.filter((x) => x.outcome && keys.includes(x.date)));
+    if (preds.length) L.push(`Abandonment predictions checked: ${preds.length}, came true ${preds.filter((x) => x.outcome === "hit").length}.`);
+    L.push("");
+    const notes = filled.filter((k) => state.diary[k].note).map((k) => `  ${fmtDate(k)}: ${state.diary[k].note}`);
+    if (notes.length) { L.push("Notes:"); L.push(...notes); }
+    return L.join("\n");
+  }
+  return { render, summary };
+})();
+
+/* ---- js/ui/settings.js ---- */
+const __m_js_ui_settings_js = (() => {
+  const { state, save, replaceState, resetState } = __m_js_state_js;
+  const { backend } = __m_js_storage_js;
+  const { DEFAULT_SETTINGS, DEFAULT_EMOTIONS, DEFAULT_URGES } = __m_js_data_skills_js;
+  const { esc, toast, download, confirmBox } = __m_js_ui_dom_js;
+  const { refresh } = __m_js_router_js;
+
+  function render(root) {
+    const s = state.settings;
+    const list = (key, title, hint) => `
+      <section class="card mb"><h3>${title}</h3><p class="small muted">${hint}</p>
+        <div class="editlist">${s[key].map((v, i) => `<div class="row"><input type="text" data-list="${key}" data-i="${i}" value="${esc(v)}"><button class="btn sm ghost" data-rml="${key}" data-i="${i}">×</button></div>`).join("")}</div>
+        <button class="btn sm mt" data-addl="${key}">+ add</button></section>`;
+    root.innerHTML = `
+    <p class="help">Everything here is yours to change. The lists feed the Today card and crisis mode. Data is stored ${backend() === "file" ? "in <code>data/ballast.json</code> next to the app" : "in this browser's local storage (open the app through Run-Ballast.cmd to store it as a file instead)"}.</p>
+    <div class="grid two">
+      <div>
+        ${list("emotions", "Emotions on the daily card", "Rated 0 to 5 each day.")}
+        ${list("urges", "Urges on the daily card", "Rated 0 to 5, plus whether you acted on it.")}
+        ${list("soothe", "Self-soothe list (crisis step 3)", "Things that calm the body. Specific beats general.")}
+        ${list("distract", "Distraction list (crisis step 3)", "Things that take the mind somewhere else for 15 minutes.")}
+      </div>
+      <div>
+        <section class="card accent-pink mb"><h3>Crisis plan</h3>
+          <p class="small muted">Written by you, when calm, for you, when not. Warning signs, what has helped before, what to do in order, who to call, where the risk items are kept.</p>
+          <textarea data-plan rows="8" placeholder="When I notice… I will… If that does not work I will… People I can call…">${esc(s.plan)}</textarea></section>
+        <section class="card accent-teal mb"><h3>People to call</h3>
+          <div class="editlist">${s.contacts.map((c, i) => `<div class="row"><input type="text" data-c="name" data-i="${i}" value="${esc(c.name)}" placeholder="name" style="flex:1"><input type="text" data-c="number" data-i="${i}" value="${esc(c.number)}" placeholder="number" style="flex:1"><input type="text" data-c="note" data-i="${i}" value="${esc(c.note || "")}" placeholder="note" style="flex:1"><button class="btn sm ghost" data-rmc="${i}">×</button></div>`).join("")}</div>
+          <button class="btn sm mt" data-addc>+ add person</button></section>
+        <section class="card mb"><h3>Hotlines</h3>
+          <div class="editlist">${s.hotlines.map((c, i) => `<div class="row"><input type="text" data-h="name" data-i="${i}" value="${esc(c.name)}" placeholder="name" style="flex:2"><input type="text" data-h="number" data-i="${i}" value="${esc(c.number)}" placeholder="number" style="flex:1"><input type="text" data-h="note" data-i="${i}" value="${esc(c.note || "")}" placeholder="note" style="flex:1"><button class="btn sm ghost" data-rmh="${i}">×</button></div>`).join("")}</div>
+          <button class="btn sm mt" data-addh>+ add hotline</button>
+          <label class="field mt"><span>Emergency line shown at the bottom of crisis mode</span><input type="text" data-emergency value="${esc(s.emergency)}"></label></section>
+        <section class="card mb"><h3>Backup</h3>
+          <div class="row"><button class="btn" data-export>Export all data (.json)</button><label class="btn">Import .json<input type="file" accept=".json,application/json" data-import hidden></label></div>
+          <div class="row mt"><button class="btn sm ghost" data-resetlists>Reset lists to defaults</button><button class="btn sm danger" data-wipe>Erase everything</button></div></section>
+      </div>
+    </div>`;
+    root.addEventListener("input", onInput);
+    root.addEventListener("change", onChange);
+    root.addEventListener("click", onClick);
+  }
+
+  function onInput(e) {
+    const s = state.settings, t = e.target, i = Number(t.dataset.i);
+    if (t.matches("[data-list]")) s[t.dataset.list][i] = t.value;
+    if (t.matches("[data-c]")) s.contacts[i][t.dataset.c] = t.value;
+    if (t.matches("[data-h]")) s.hotlines[i][t.dataset.h] = t.value;
+    if (t.matches("[data-plan]")) s.plan = t.value;
+    if (t.matches("[data-emergency]")) s.emergency = t.value;
+    save();
+  }
+
+  function onChange(e) {
+    if (!e.target.matches("[data-import]")) return;
+    const f = e.target.files[0]; if (!f) return;
+    f.text().then((txt) => {
+      try {
+        const obj = JSON.parse(txt);
+        if (!obj || typeof obj !== "object" || !("diary" in obj)) throw new Error("not a Ballast file");
+        if (!confirmBox("Replace everything in Ballast with this file?")) return;
+        replaceState(obj); toast("Imported"); refresh();
+      } catch (err) { toast("Could not import: " + err.message); }
+    });
+  }
+
+  function onClick(e) {
+    const s = state.settings;
+    const t = e.target.closest("button"); if (!t) return;
+    const i = Number(t.dataset.i);
+    if (t.dataset.addl) { s[t.dataset.addl].push(""); save(); refresh(); return; }
+    if (t.dataset.rml) { s[t.dataset.rml].splice(i, 1); save(); refresh(); return; }
+    if (t.hasAttribute("data-addc")) { s.contacts.push({ name: "", number: "", note: "" }); save(); refresh(); return; }
+    if (t.dataset.rmc != null) { s.contacts.splice(Number(t.dataset.rmc), 1); save(); refresh(); return; }
+    if (t.hasAttribute("data-addh")) { s.hotlines.push({ name: "", number: "", note: "" }); save(); refresh(); return; }
+    if (t.dataset.rmh != null) { s.hotlines.splice(Number(t.dataset.rmh), 1); save(); refresh(); return; }
+    if (t.hasAttribute("data-export")) { download(`ballast-backup-${new Date().toISOString().slice(0, 10)}.json`, JSON.stringify(state, null, 2), "application/json"); return; }
+    if (t.hasAttribute("data-resetlists")) {
+      if (!confirmBox("Reset the emotion, urge, soothe and distraction lists to the defaults? Your diary entries are kept.")) return;
+      Object.assign(s, structuredClone(DEFAULT_SETTINGS), { plan: s.plan, contacts: s.contacts, hotlines: s.hotlines, emergency: s.emergency, emotions: [...DEFAULT_EMOTIONS], urges: [...DEFAULT_URGES] });
+      save(); refresh(); return;
+    }
+    if (t.hasAttribute("data-wipe")) {
+      if (!confirmBox("Erase ALL Ballast data on this PC? Export a backup first if you might want it back.")) return;
+      if (!confirmBox("Last chance. Erase everything?")) return;
+      resetState(); toast("Erased"); refresh();
+    }
+  }
+  return { render };
+})();
+
+/* ---- js/ui/crisis.js ---- */
+const __m_js_ui_crisis_js = (() => {
+  // Crisis overlay: five guided steps for right now. Opened from "I need help now".
+  const { state, save, uid } = __m_js_state_js;
+  const { esc } = __m_js_ui_dom_js;
+
+  const STEPS = ["Rate", "Stop", "Body", "Your list", "Plan"];
+  const TIPP = [
+    { key: "temp", title: "Temperature", text: "Cold water on the face and hold your breath for 30 seconds, or hold ice in your hands. This trips the dive reflex and slows the heart.", secs: 30 },
+    { key: "exercise", title: "Intense exercise", text: "60 seconds of anything that gets the heart up: jumping jacks, stairs, a fast walk. Burn the adrenaline instead of holding it.", secs: 60 },
+    { key: "breath", title: "Paced breathing", text: "Use the breathing on the Stop step for 2 minutes. Out-breath longer than the in-breath.", secs: 0 },
+    { key: "pmr", title: "Paired muscle relaxation", text: "Tense a muscle group on the in-breath, release on the out-breath. Work down the body: face, shoulders, hands, stomach, legs, feet.", secs: 60 },
+  ];
+
+  let session = null;
+  let step = 0;
+  let timers = [];   // every setTimeout/setInterval id we own
+  let root = null;
+
+  function open() {
+    root = document.getElementById("crisis");
+    session = { id: uid(), at: Date.now(), before: null, after: null, tried: [] };
+    step = 0;
+    root.classList.remove("hidden");
+    root.addEventListener("click", onClick);
+    document.addEventListener("keydown", onKey);
+    render();
+  }
+
+  function close() {
+    if (!root) return;
+    stopTimers();
+    if (session && (session.before !== null || session.after !== null || session.tried.length)) {
+      if (!state.crises.some((c) => c.id === session.id)) { state.crises.push(session); save(); }
+    }
+    session = null;
+    root.removeEventListener("click", onClick);
+    document.removeEventListener("keydown", onKey);
+    root.classList.add("hidden");
+    root.innerHTML = "";
+    document.getElementById("crisis-btn")?.focus();
+  }
+
+  function onKey(e) { if (e.key === "Escape") close(); }
+
+  function stopTimers() {
+    for (const t of timers) { clearTimeout(t); clearInterval(t); }
+    timers = [];
+  }
+
+  // ---- rendering ----
+  function render() {
+    stopTimers();
+    const body = [rateStep, stopStep, bodyStep, listStep, planStep][step]();
+    root.innerHTML = `<div class="inner">
+      <button class="btn sm ghost close" data-act="close" aria-label="Close">Close</button>
+      <div class="steps" role="tablist">${STEPS.map((s, i) => `<button role="tab" aria-selected="${i === step}" class="${i === step ? "active" : ""}" data-step="${i}">${i + 1}. ${s}</button>`).join("")}</div>
+      ${body}
+      <div class="row mt">${step < STEPS.length - 1 ? `<button class="btn primary" data-act="next">Next</button>` : ""}</div>
+    </div>`;
+    root.querySelector(".inner > h1, .inner > .steps button.active")?.focus();
+  }
+
+  function rateRow(which) {
+    const v = session[which];
+    return `<div class="rate" data-rate="${which}">${Array.from({ length: 11 }, (_, i) => `<button type="button" data-v="${i}" class="${v === i ? "on" : ""}" aria-pressed="${v === i}">${i}</button>`).join("")}</div>`;
+  }
+
+  function rateStep() {
+    return `<h1>How bad is it right now, 0 to 10?</h1>
+    <p class="lead">${rateRow("before")}</p>
+    <p class="muted">No wrong answer. This just lets you see later whether the next few minutes helped.</p>`;
+  }
+
+  function stopStep() {
+    return `<h1>STOP</h1>
+    <div class="acro">
+      <div><b>S</b><div class="big"><strong>Stop.</strong> Freeze. Do not move a muscle. Do not send. Do not speak.</div></div>
+      <div><b>T</b><div class="big"><strong>Take a step back.</strong> Leave the room, or put the phone in another room.</div></div>
+      <div><b>O</b><div class="big"><strong>Observe.</strong> What is happening inside and outside. Just notice.</div></div>
+      <div><b>P</b><div class="big"><strong>Proceed mindfully.</strong> What do you want the next hour to look like?</div></div>
+    </div>
+    <div class="card mt">
+      <div class="breath" id="breath"><div class="ring"></div><div class="word">Ready</div><div class="t">90 s</div></div>
+      <div class="row"><button class="btn teal" data-act="breath">Start breathing</button><span class="muted small">In for 4, out for 6, for 90 seconds.</span></div>
+    </div>`;
+  }
+
+  function bodyStep() {
+    return `<h1>Change the body first</h1>
+    <p class="muted">TIPP. Pick one. Each one lowers arousal fast without deciding anything.</p>
+    <div class="tipp">${TIPP.map((c) => `<div class="card">
+        <b>${c.title}</b>
+        <p class="big">${c.text}</p>
+        ${c.secs ? `<button class="btn sm timerbtn" data-timer="${c.key}" data-secs="${c.secs}">${c.secs} s timer<span class="countdown"></span></button>` : `<button class="btn sm ghost" data-step="1">Go to Stop step</button>`}
+      </div>`).join("")}</div>`;
+  }
+
+  function listStep() {
+    const { soothe = [], distract = [] } = state.settings;
+    if (!soothe.length && !distract.length) {
+      return `<h1>Your list</h1><p class="lead">Nothing here yet. Settings lets you fill in soothe and distract lists while you are calm.</p>`;
+    }
+    const list = (title, items, kind) => items.length ? `<h3>${title}</h3><ul class="plainlist">${items.map((t, i) => {
+      const done = session.tried.includes(t);
+      return `<li class="${done ? "done" : ""}"><input type="checkbox" id="tr-${kind}-${i}" data-tried="${esc(t)}" ${done ? "checked" : ""}><label for="tr-${kind}-${i}">${esc(t)}</label></li>`;
+    }).join("")}</ul>` : "";
+    return `<h1>Your list</h1>
+    ${list("Soothe", soothe, "s")}
+    ${list("Distract", distract, "d")}
+    <p class="lead mt">Pick one. Do it for 15 minutes before deciding anything.</p>`;
+  }
+
+  function planStep() {
+    const s = state.settings;
+    const person = (p) => `<div class="item"><b>${esc(p.name)}</b><div class="num">${esc(p.number)}</div>${p.note ? `<div class="muted small">${esc(p.note)}</div>` : ""}</div>`;
+    return `<h1>Your plan</h1>
+    ${s.plan ? `<pre class="quote">${esc(s.plan)}</pre>` : `<p class="muted">No plan written yet. Settings lets you write one while calm.</p>`}
+    ${(s.contacts || []).length ? `<h3 class="mt">People</h3><div class="list contacts">${s.contacts.map(person).join("")}</div>` : ""}
+    ${(s.hotlines || []).length ? `<h3 class="mt">Lines</h3><div class="list contacts">${s.hotlines.map(person).join("")}</div>` : ""}
+    ${s.emergency ? `<p class="mt"><span class="pill danger">${esc(s.emergency)}</span></p>` : ""}
+    <h3 class="mt">How bad is it now, 0 to 10?</h3>
+    ${rateRow("after")}
+    ${session.before !== null && session.after !== null ? `<p class="muted small">Before: ${session.before}. Now: ${session.after}.</p>` : ""}
+    <div class="row mt"><button class="btn teal" data-act="done">Done</button></div>`;
+  }
+
+  // ---- events ----
+  function onClick(e) {
+    const t = e.target;
+    const act = t.closest("[data-act]")?.dataset.act;
+    if (act === "close" || act === "done") { close(); return; }
+    if (act === "next") { step = Math.min(step + 1, STEPS.length - 1); render(); return; }
+    if (act === "breath") { toggleBreath(t.closest("[data-act]")); return; }
+    const tab = t.closest("[data-step]");
+    if (tab) { step = Number(tab.dataset.step); render(); return; }
+    const rateBtn = t.closest(".rate button");
+    if (rateBtn) {
+      const which = rateBtn.closest("[data-rate]").dataset.rate;
+      session[which] = Number(rateBtn.dataset.v);
+      rateBtn.parentElement.querySelectorAll("button").forEach((b) => { const on = b === rateBtn; b.classList.toggle("on", on); b.setAttribute("aria-pressed", on); });
+      return;
+    }
+    if (t.matches("[data-tried]")) {
+      const text = t.dataset.tried;
+      if (t.checked && !session.tried.includes(text)) session.tried.push(text);
+      if (!t.checked) session.tried = session.tried.filter((x) => x !== text);
+      t.closest("li").classList.toggle("done", t.checked);
+      return;
+    }
+    const timerBtn = t.closest("[data-timer]");
+    if (timerBtn) startTimer(timerBtn);
+  }
+
+  // ---- breathing (4 s in, 6 s out, 90 s total) ----
+  function toggleBreath(btn) {
+    const box = document.getElementById("breath");
+    if (btn.dataset.running) { stopTimers(); btn.textContent = "Start breathing"; delete btn.dataset.running; box.className = "breath"; box.querySelector(".word").textContent = "Ready"; return; }
+    btn.dataset.running = "1"; btn.textContent = "Stop";
+    const word = box.querySelector(".word"), tEl = box.querySelector(".t");
+    const end = Date.now() + 90e3;
+    let phaseIn = false;
+    const phase = () => {
+      if (Date.now() >= end) { stopTimers(); box.className = "breath"; word.textContent = "Done"; tEl.textContent = "90 s"; btn.textContent = "Start breathing"; delete btn.dataset.running; return; }
+      phaseIn = !phaseIn;
+      box.className = "breath " + (phaseIn ? "in" : "out");
+      word.textContent = phaseIn ? "Breathe in" : "Breathe out";
+      timers.push(setTimeout(phase, phaseIn ? 4000 : 6000));
+    };
+    phase();
+    timers.push(setInterval(() => { tEl.textContent = Math.max(0, Math.ceil((end - Date.now()) / 1000)) + " s"; }, 250));
+  }
+
+  // ---- TIPP timers (one at a time) ----
+  function startTimer(btn) {
+    stopTimers();
+    root.querySelectorAll("[data-timer] .countdown").forEach((c) => { c.textContent = ""; });
+    const cd = btn.querySelector(".countdown");
+    const end = Date.now() + Number(btn.dataset.secs) * 1000;
+    const tick = () => {
+      const left = Math.ceil((end - Date.now()) / 1000);
+      if (left <= 0) { cd.textContent = "done"; stopTimers(); return; }
+      cd.textContent = left + " s";
+    };
+    tick();
+    timers.push(setInterval(tick, 250));
+  }
+  return { open, close };
+})();
+
+/* ---- js/main.js ---- */
+const __m_js_main_js = (() => {
+  const { init, state, save } = __m_js_state_js;
+  const { register, go } = __m_js_router_js;
+  const today = __m_js_ui_today_js;
+  const drawer = __m_js_ui_drawer_js;
+  const chain = __m_js_ui_chain_js;
+  const people = __m_js_ui_people_js;
+  const coach = __m_js_ui_coach_js;
+  const suspicion = __m_js_ui_suspicion_js;
+  const review = __m_js_ui_review_js;
+  const settings = __m_js_ui_settings_js;
+  const crisis = __m_js_ui_crisis_js;
+  const { toast } = __m_js_ui_dom_js;
+
+  register("today", today);
+  register("drawer", drawer);
+  register("chain", chain);
+  register("people", people);
+  register("coach", coach);
+  register("suspicion", suspicion);
+  register("review", review);
+  register("settings", settings);
+
+  async function start() {
+    await init();
+    // Promote any held drawer messages whose time has passed while the app was closed.
+    const now = Date.now();
+    let ready = 0;
+    for (const m of state.drawer) if (m.status === "held" && m.unlockAt <= now) { m.status = "ready"; ready++; }
+    if (ready) save();
+
+    document.getElementById("tabs").addEventListener("click", (e) => {
+      const b = e.target.closest("button[data-tab]");
+      if (b) go(b.dataset.tab);
+    });
+    document.getElementById("crisis-btn").addEventListener("click", () => crisis.open());
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") crisis.close();
+    });
+
+    const hash = location.hash.replace("#", "");
+    go(["today", "drawer", "chain", "people", "coach", "suspicion", "review", "settings"].includes(hash) ? hash : "today");
+    if (ready) toast(ready === 1 ? "A drawer message is ready to look at" : `${ready} drawer messages are ready to look at`);
+  }
+
+  start();
+
+  // Test hook for driving the app from the console or the build check.
+  window.BL = { state, save, go, crisis };
+  return {  };
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+.topbar {
+  position: sticky; top: 0; z-index: 20;
+  display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;
+  padding: .7rem 1.2rem;
+  padding: calc(.7rem + env(safe-area-inset-top, 0px)) max(1.2rem, env(safe-area-inset-right, 0px)) .7rem max(1.2rem, env(safe-area-inset-left, 0px));
+  background: rgba(7, 6, 13, .78);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--line);
+}
+.brand { font-weight: 700; font-size: 1.15rem; letter-spacing: .04em; display: flex; align-items: center; gap: .5rem; }
+.brand-dot {
+  width: 14px; height: 14px; border-radius: 50%;
+  background: conic-gradient(var(--purple), var(--teal), var(--pink), var(--purple));
+  box-shadow: 0 0 14px rgba(155, 92, 255, .8);
+}
+.tabs { display: flex; gap: .25rem; flex-wrap: wrap; flex: 1; }
+.tabs button {
+  background: transparent; border: 1px solid transparent; color: var(--muted);
+  padding: .4rem .8rem; border-radius: 999px; cursor: pointer;
+}
+.tabs button:hover { color: var(--text); border-color: var(--line); }
+.tabs button.active {
+  color: var(--text);
+  background: linear-gradient(135deg, rgba(155, 92, 255, .35), rgba(47, 224, 208, .18));
+  border-color: rgba(155, 92, 255, .5);
+}
+.view { max-width: 1100px; margin: 0 auto; padding: 1.4rem 1.2rem 4rem; }
+/* notches and the home indicator (iPhone): keep content inside the safe area */
+.view { padding-left: max(1.2rem, env(safe-area-inset-left, 0px)); padding-right: max(1.2rem, env(safe-area-inset-right, 0px)); padding-bottom: calc(4rem + env(safe-area-inset-bottom, 0px)); }
+.grid { display: grid; gap: 1rem; }
+.grid.two { grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
+.grid.three { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+@media (max-width: 640px) {
+  .view { padding: 1rem .8rem 4rem; padding-left: max(.8rem, env(safe-area-inset-left, 0px)); padding-right: max(.8rem, env(safe-area-inset-right, 0px)); padding-bottom: calc(4rem + env(safe-area-inset-bottom, 0px)); }
+  .topbar { padding: .6rem .8rem; padding: calc(.6rem + env(safe-area-inset-top, 0px)) max(.8rem, env(safe-area-inset-right, 0px)) .6rem max(.8rem, env(safe-area-inset-left, 0px)); gap: .5rem; }
+  /* brand + help button on the first row, the eight tabs scroll sideways on the second */
+  .tabs { order: 3; flex: 1 0 100%; flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tabs button { flex: 0 0 auto; white-space: nowrap; }
+}

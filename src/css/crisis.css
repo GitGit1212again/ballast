@@ -1,0 +1,54 @@
+.crisis-btn {
+  margin-left: auto;
+  padding: .55rem 1.1rem; border-radius: 999px; cursor: pointer; font-weight: 600;
+  border: 1px solid rgba(255, 95, 184, .7); color: #fff;
+  background: linear-gradient(135deg, var(--pink), var(--purple-2));
+  box-shadow: 0 0 18px rgba(255, 95, 184, .35);
+}
+.crisis-btn:hover { box-shadow: 0 0 26px rgba(255, 95, 184, .6); }
+.crisis {
+  position: fixed; inset: 0; z-index: 40; overflow-y: auto;
+  background: radial-gradient(60% 50% at 50% 0%, rgba(111, 59, 214, .35), transparent 70%), rgba(5, 4, 10, .97);
+  padding: 1.5rem 1rem 3rem;
+  padding: calc(1.5rem + env(safe-area-inset-top, 0px)) max(1rem, env(safe-area-inset-right, 0px)) calc(3rem + env(safe-area-inset-bottom, 0px)) max(1rem, env(safe-area-inset-left, 0px));
+}
+.crisis .inner { max-width: 720px; margin: 0 auto; }
+.crisis .steps { display: flex; gap: .3rem; margin-bottom: 1rem; flex-wrap: wrap; }
+.crisis .steps button {
+  flex: 1; min-width: 90px; padding: .45rem .5rem; border-radius: 10px; cursor: pointer;
+  background: transparent; border: 1px solid var(--line); color: var(--muted); font-size: .85rem;
+}
+.crisis .steps button.active { color: var(--text); border-color: var(--teal); background: rgba(47, 224, 208, .12); }
+.crisis h1 { font-size: 1.7rem; margin-bottom: .3rem; }
+.crisis .lead { font-size: 1.1rem; color: var(--text); }
+.crisis .big { font-size: 1.15rem; line-height: 1.6; }
+.crisis .close { position: absolute; top: 1rem; right: 1rem; top: calc(1rem + env(safe-area-inset-top, 0px)); right: calc(1rem + env(safe-area-inset-right, 0px)); }
+/* phones: the Close button sits above the step row instead of on top of it */
+@media (max-width: 640px) { .crisis .inner { padding-top: 2.4rem; } }
+.breath {
+  display: grid; place-items: center; margin: 1.2rem auto; width: 220px; height: 220px; position: relative;
+}
+.breath .ring {
+  position: absolute; inset: 0; border-radius: 50%;
+  background: radial-gradient(circle, rgba(47, 224, 208, .35), rgba(155, 92, 255, .25) 60%, transparent 72%);
+  transform: scale(.6); transition: transform 4s ease-in-out;
+}
+.breath.in .ring { transform: scale(1); transition-duration: 4s; }
+.breath.out .ring { transform: scale(.6); transition-duration: 6s; }
+.breath .word { position: relative; font-size: 1.4rem; font-weight: 600; z-index: 1; }
+.breath .t { position: absolute; bottom: 12px; font-size: .85rem; color: var(--muted); }
+.acro { display: grid; gap: .5rem; margin: .8rem 0; }
+.acro > div { display: grid; grid-template-columns: 44px 1fr; gap: .6rem; align-items: start; }
+.acro > div > b { font-size: 1.4rem; color: var(--pink); line-height: 1.2; }
+.tipp { display: grid; gap: .6rem; }
+.tipp .card { padding: .8rem .9rem; }
+.timerbtn .countdown { margin-left: .4rem; }
+.plainlist { list-style: none; padding: 0; margin: .4rem 0; display: grid; gap: .35rem; }
+.plainlist li { display: flex; gap: .5rem; align-items: center; padding: .4rem .6rem; border: 1px solid var(--line); border-radius: 10px; }
+.plainlist li.done { opacity: .5; text-decoration: line-through; }
+.plainlist li input { accent-color: var(--teal); }
+.contacts .item b { font-size: 1.05rem; }
+.contacts .item .num { font-size: 1.2rem; color: var(--teal); }
+.rate { display: flex; gap: .3rem; flex-wrap: wrap; }
+.rate button { width: 36px; height: 36px; border-radius: 8px; border: 1px solid var(--line); background: transparent; color: var(--muted); cursor: pointer; }
+.rate button.on { background: var(--purple); color: #fff; border-color: transparent; }
